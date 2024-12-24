@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,General:Launch Web Chat_Aria,,,
+2,Execute,,General:Request for a Blanket,,,
+3,Execute,,General:Enter required quantity,,,
+4,Confirmation message 1,Assert if [<Object>] is present,assertElementPresent,,,Let's Chat Mobile bot

@@ -1,0 +1,23 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+false,SC001_Request HSK with quantity,TC068_Towel request National Harbour,1,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC081_Slippers request National harbour,1,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC069_Blanket request National Harbour,1,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC070_Pillow request National Harbour,1,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC071_Dental kit request National Harbour,1,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC072_Shower drain request National Harbour,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC073_Shaving kit request National Harbour,1,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC074_Drapes request National Harbour,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC075_Kleenex request National Harbour,1,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC076_Hair dryer request National Harbour,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC078_Hotsos code missing Lights request National Harbour Escalation,1,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC080_AC request National Harbour,1,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC077_Escalation Crave tablet request National Harbour,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC079_Hotsos code missing Safe request National Harbour escalation,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC082_Duplicate Towel request National Harbour,2:3,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC084_Duplicate Blanket request National Harbour,2:3,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC083_Duplicate Slippers request National harbour,2,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC085_Duplicate Pillow request National Harbour,2:3,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC086_Duplicate Dental kit request National Harbour,2,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC087_Duplicate Kleenex request National Harbour,2:3,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC088_Duplicate Shaving kit request National Harbour,2,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC089_Duplicate AC request National Harbour,2,Failed,Chrome,Default,Any

@@ -1,0 +1,139 @@
+<Root type="OR" ref="E Chat Mobile bot">
+  <Page title="" ref="Let's Chat Mobile bot">
+    <ObjectGroup ref="Let's Chat button">
+      <Object frame="Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window" ref="Let's Chat button">
+        <Property value="//label[@id='oc-lcw-chat-button-subtitle']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;label dir=&quot;ltr&quot; class=&quot;ms-Label root-114&quot; id=&quot;oc-lcw-chat-button-subtitle&quot;>We're Online&lt;/label>" ref="outerHTML" pref="10"/>
+        <Property value="label" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Chat window title">
+      <Object frame="" ref="Chat window title">
+        <Property value="//label[@id='lcw-header-title']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Start conversation text">
+      <Object frame="" ref="Start conversation text">
+        <Property value="//div[@class='webchat__stacked-layout__content']//div[2]//*[contains(text(),'Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.')]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.&lt;br>&#xa;How may I assist you?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Chat text box">
+      <Object frame="" ref="Chat text box">
+        <Property value="//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;textarea class=&quot;webchat__auto-resize-textarea__textarea webchat__send-box-text-box__html-text-area&quot; inputmode=&quot;text&quot; placeholder=&quot;Type your message&quot; rows=&quot;1&quot; aria-label=&quot;Message input box&quot; data-id=&quot;webchat-sendbox-input&quot;>&lt;/textarea>" ref="outerHTML" pref="10"/>
+        <Property value="textarea" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Quantity question">
+      <Object frame="Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window" ref="Quantity question">
+        <Property value="//div[@class='webchat__bubble__content']//div[@class='webchat__text-content__markdown webchat__render-markdown webchat--css-bqybl-bafhim']//p[text()='How many do you need? (please type 1, 2, 3, or 4)']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Send button">
+      <Object frame="" ref="Send button">
+        <Property value="//div[@class='webchat__send-box__main']//button[@title='Send']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;webchat--css-epdpr-5mw3sr webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch&quot; title=&quot;Send&quot; type=&quot;button&quot;>&lt;div class=&quot;webchat__icon-button__shade&quot;>&lt;/div>&lt;svg class=&quot;webchat__send-icon webchat--css-epdpr-varv44&quot; height=&quot;28&quot; viewBox=&quot;0 0 45.7 33.8&quot; width=&quot;28&quot;>&lt;path clip-rule=&quot;evenodd&quot; d=&quot;M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z&quot;>&lt;/path>&lt;/svg>&lt;div class=&quot;webchat__icon-button__keyboard-focus-indicator&quot;>&lt;/div>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Confirmation message 1">
+      <Object frame="" ref="Confirmation message 1">
+        <Property value="//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! ')]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>You’re all set! We've sent your request to housekeeping for room 186.&lt;br>&#xa;What else can I help you with?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Duplicate request message">
+      <Object frame="" ref="Duplicate request message">
+        <Property value="//div/div[@class='webchat__bubble__content']//*[contains(text(),'This seems like the same request we just received. We have already started working on it and no further action is needed. Someone will be with you shortly. If you need any further assistance, please respond AGENT.')]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>This seems like the same request we just received. We have already started working on it and no further action is needed. Someone will be with you shortly. If you need any further assistance, please respond AGENT.&lt;br>&#xa;What else can I help you with?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Escalation message">
+      <Object frame="" ref="Escalation message">
+        <Property value="//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'connect you with a live agent')]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>I'll connect you with a live agent and they will be with you shortly.&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

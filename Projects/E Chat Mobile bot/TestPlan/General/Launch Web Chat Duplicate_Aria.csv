@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,Aria URL_Duplicate test:Data1,,
+2,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+3,Let's Chat button,"Click the [<Object>] ",Click,,,Let's Chat Mobile bot
+4,Browser,Wait for [<Data>] milli seconds,pause,@10000,,
+5,Start conversation text,Assert if [<Object>] is present,assertElementPresent,,,Let's Chat Mobile bot
+6,Browser,Wait for [<Data>] milli seconds,pause,@3000,,

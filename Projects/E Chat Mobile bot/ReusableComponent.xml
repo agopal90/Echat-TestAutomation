@@ -1,0 +1,28 @@
+<Root ref="E Chat Mobile bot" type="RC">
+<Folder ref="UI">
+<Scenario ref="General">
+<TestCase exeType="Executable" ref="Enter required quantity"/>
+<TestCase exeType="Executable" ref="Launch Web Chat"/>
+<TestCase exeType="Executable" ref="Request an item_quantity required"/>
+<TestCase exeType="Executable" ref="Request for a Blanket"/>
+<TestCase exeType="Executable" ref="Request for a Crave tablet"/>
+<TestCase exeType="Executable" ref="Request for a Dental kit"/>
+<TestCase exeType="Executable" ref="Request for a Hair Dryer"/>
+<TestCase exeType="Executable" ref="Request for a Kleenex"/>
+<TestCase exeType="Executable" ref="Request for a Shaving kit"/>
+<TestCase exeType="Executable" ref="Request for a Towel"/>
+<TestCase exeType="Executable" ref="Request for AC"/>
+<TestCase exeType="Executable" ref="Request for Decline Housekeeping"/>
+<TestCase exeType="Executable" ref="Request for Drapes"/>
+<TestCase exeType="Executable" ref="Request for Housekeeping"/>
+<TestCase exeType="Executable" ref="Request for Lights"/>
+<TestCase exeType="Executable" ref="Request for Pillows"/>
+<TestCase exeType="Executable" ref="Request for Safe"/>
+<TestCase exeType="Executable" ref="Request for Shower Drain"/>
+<TestCase exeType="Executable" ref="Request for Slippers"/>
+<TestCase exeType="Executable" ref="Request for Toilet CLogged"/>
+<TestCase exeType="Executable" ref="Request for Toiletries"/>
+<TestCase exeType="Executable" ref="Request for TV Remote"/>
+</Scenario>
+</Folder>
+</Root>
