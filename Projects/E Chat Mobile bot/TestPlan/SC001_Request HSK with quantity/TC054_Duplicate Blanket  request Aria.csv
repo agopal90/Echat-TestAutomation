@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,General:Launch Web Chat Duplicate_Aria,,,
+2,Execute,,General:Request for a Blanket,,,
+3,Execute,,General:Enter required quantity,,,
+4,Browser,Wait for [<Data>] milli seconds,pause,@5000,,Let's Chat Mobile bot
+5,Duplicate request message,Assert if [<Object>] is present,assertElementPresent,,,Let's Chat Mobile bot

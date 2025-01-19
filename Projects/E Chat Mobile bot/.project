@@ -1,0 +1,817 @@
+{
+  "id" : "E Chat Mobile bot",
+  "name" : "E Chat Mobile bot",
+  "version" : "1.3",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "SC001_Request HSK with quantity",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "General",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "General#Launch Web Chat",
+    "name" : "Launch Web Chat_Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "General"
+    } ]
+  }, {
+    "id" : "General#Request for a Blanket",
+    "name" : "Request for a Blanket",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "General"
+    } ]
+  }, {
+    "id" : "General#Request for a Dental kit",
+    "name" : "Request for a Dental kit",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "General"
+    } ]
+  }, {
+    "id" : "General#Request for a Shaving kit",
+    "name" : "Request for a Shaving kit",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "General"
+    } ]
+  }, {
+    "id" : "General#Request for a Towel",
+    "name" : "Request for a Towel",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "General"
+    } ]
+  }, {
+    "id" : "SC001_Request HSK with quantity#TC001_Aria 1st request",
+    "name" : "TC001_Towel  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC002_Blanket  request Aria",
+    "name" : "TC002_Blanket  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC003_Towel request for Bellagio",
+    "name" : "TC003_Towel request for Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC004_Blanket request for Bellagio",
+    "name" : "TC004_Blanket request for Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC006_Dental kit request Aria",
+    "name" : "TC006_Dental kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC007_Shaving kit request Aria",
+    "name" : "TC007_Shaving kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC008_Dental kit request Bellagio",
+    "name" : "TC008_Dental kit request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC009_Shaving kit request Bellagio",
+    "name" : "TC009_Shaving kit request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC010_Drapes request Aria",
+    "name" : "TC010_Drapes request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC011_Hair dryer request Aria",
+    "name" : "TC011_Hair dryer request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC012_Crave Tablet  request Aria",
+    "name" : "TC012_Crave Tablet  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC013_Lights request Aria",
+    "name" : "TC013_Lights request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC014_Kleenex request Aria",
+    "name" : "TC014_Kleenex request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC015_Pillows request Aria",
+    "name" : "TC015_Pillows request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC016_Safe request Aria",
+    "name" : "TC016_Safe request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC017_Shower drain request Aria",
+    "name" : "TC017_Shower drain request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC018_AC request Aria",
+    "name" : "TC018_AC request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC020_TV remote request Aria",
+    "name" : "TC020_TV remote request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC022_Toilet clogged  request Aria",
+    "name" : "TC022_Toilet clogged  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC019_Slippers request Aria",
+    "name" : "TC019_Slippers request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC021_Toiletries request Aria",
+    "name" : "TC021_Toiletries request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC051_Duplicate TV remote request Aria",
+    "name" : "TC051_Duplicate TV remote request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC052_Duplicate Decline housekeeping  request Aria",
+    "name" : "TC052_Duplicate Decline housekeeping  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC053_Duplicate Toilet clogged  request Aria",
+    "name" : "TC053_Duplicate Toilet clogged  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC054_Duplicate Shaving kit  request Aria",
+    "name" : "TC054_Duplicate Shaving kit  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC053_Duplicate Towel  request Aria",
+    "name" : "TC053_Duplicate Towel  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC054_Duplicate Blanket  request Aria",
+    "name" : "TC054_Duplicate Blanket  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC055_Duplicate Kleenex request Aria",
+    "name" : "TC055_Duplicate Kleenex request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC056_Duplicate AC request Aria",
+    "name" : "TC056_Duplicate AC request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC057_Duplicate Shower drain request Aria",
+    "name" : "TC057_Duplicate Shower drain request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC058_Duplicate Drapes request Aria",
+    "name" : "TC058_Duplicate Drapes request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC059_Duplicate Hair dryer request Aria",
+    "name" : "TC059_Duplicate Hair dryer request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC060_Duplicate Shaving kit request Aria",
+    "name" : "TC060_Duplicate Shaving kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC061_Duplicate Lights request Aria",
+    "name" : "TC061_Duplicate Lights request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC062_Duplicate Crave Tablet  request Aria",
+    "name" : "TC062_Duplicate Crave Tablet  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC063_Duplicate Dental kit request Aria",
+    "name" : "TC063_Duplicate Dental kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC064_Duplicate Safe request Aria",
+    "name" : "TC064_Duplicate Safe request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC065_Duplicate Pillows request Aria",
+    "name" : "TC065_Duplicate Pillows request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC066_Duplicate Slippers request Aria",
+    "name" : "TC066_Duplicate Slippers request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC067_Duplicate Toiletries request Aria",
+    "name" : "TC067_Duplicate Toiletries request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC029_Safe request Bellagio",
+    "name" : "TC029_Safe request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC023_Hair dryer request Bellagio",
+    "name" : "TC023_Hair dryer request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC024_Crave tablet request Bellagio",
+    "name" : "TC024_Crave tablet request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC025_Lights request Bellagio",
+    "name" : "TC025_Lights request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC026_Kleenex request Bellagio",
+    "name" : "TC026_Kleenex request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC027_Pillows request Bellagio",
+    "name" : "TC027_Pillows request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC030_Shower Drain request Bellagio",
+    "name" : "TC030_Shower Drain request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC031_AC request Bellagio",
+    "name" : "TC031_AC request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC032_Slippers request Bellagio",
+    "name" : "TC032_Slippers request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC033_TV remote request Bellagio",
+    "name" : "TC033_TV remote request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC034_Toiletries request Bellagio",
+    "name" : "TC034_Toiletries request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC035_Toilet clogged request Bellagio",
+    "name" : "TC035_Toilet clogged request Bellagio",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC037_Towel request Vdara",
+    "name" : "TC037_Towel request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC036_Toilet clogged request Vdara",
+    "name" : "TC036_Toilet clogged request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC005_Towel  request Vdara",
+    "name" : "TC005_Towel  request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC038_Blanket request Vdara",
+    "name" : "TC038_Blanket request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC039_Pillow request Vdara",
+    "name" : "TC039_Pillow request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC040_Dental kit request Vdara",
+    "name" : "TC040_Dental kit request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC041_Shaving kit request Vdara",
+    "name" : "TC041_Shaving kit request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC042_Drapes request Vdara",
+    "name" : "TC042_Drapes request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC043_Kleenex request Vdara",
+    "name" : "TC043_Kleenex request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC045_Crave tablet request Vdara",
+    "name" : "TC045_Hotsos code missing Crave tablet request Vdara Escalation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC044_Hair dryer request Vdara",
+    "name" : "TC044_Hair dryer request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC046_Lights request Vdara",
+    "name" : "TC046_Lights request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC047_Safe request Vdara",
+    "name" : "TC047_Hotsos code missing Safe request Vdara Escalation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC048_AC request Vdara",
+    "name" : "TC048_AC request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC040_Shower drain request Vdara",
+    "name" : "TC040_Shower drain request Vdara",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC068_Towel request National Harbour",
+    "name" : "TC068_Towel request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC081_Slippers requestNational harbour",
+    "name" : "TC081_Slippers request National harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC069_Blanket request National Harbour",
+    "name" : "TC069_Blanket request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC070_Pillow request National Harbour",
+    "name" : "TC070_Pillow request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC071_Dental kit request National Harbour",
+    "name" : "TC071_Dental kit request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC072_Shower drain request National Harbour",
+    "name" : "TC072_Shower drain request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC073_Shaving kit request National Harbour",
+    "name" : "TC073_Shaving kit request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC074_Drapes request National Harbour",
+    "name" : "TC074_Drapes request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC075_Kleenex request National Harbour",
+    "name" : "TC075_Kleenex request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC076_Hair dryer request National Harbour",
+    "name" : "TC076_Hair dryer request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC077_Escalation Crave tablet request National Harbour",
+    "name" : "TC077_Escalation Crave tablet request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC078_Hotsos code missing Lights request National Harbour Escalation",
+    "name" : "TC078_Hotsos code missing Lights request National Harbour Escalation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC079_Hotsos code missing Safe request National Harbour escalation",
+    "name" : "TC079_Hotsos code missing Safe request National Harbour escalation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC080_AC request National Harbour",
+    "name" : "TC080_AC request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC082_Duplicate Towel request National Harbour Copy(1)",
+    "name" : "TC082_Duplicate Towel request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC084_Duplicate Blanket request National Harbour",
+    "name" : "TC084_Duplicate Blanket request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC083_Duplicate Slippers request National harbour",
+    "name" : "TC083_Duplicate Slippers request National harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC085_Duplicate Pillow request National Harbour",
+    "name" : "TC085_Duplicate Pillow request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC086_Duplicate Dental kit request National Harbour",
+    "name" : "TC086_Duplicate Dental kit request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC087_Duplicate Kleenex request National Harbour",
+    "name" : "TC087_Duplicate Kleenex request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC088_Duplicate Shaving kit request National Harbour",
+    "name" : "TC088_Duplicate Shaving kit request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC089_Duplicate AC request National Harbour",
+    "name" : "TC089_Duplicate AC request National Harbour",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  } ]
+}

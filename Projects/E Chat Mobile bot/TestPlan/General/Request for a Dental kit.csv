@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Chat text box,Assert if [<Object>] is present,assertElementPresent,,,Let's Chat Mobile bot
+2,Chat text box,"Click the [<Object>] ",doubleClickElement,,,Let's Chat Mobile bot
+3,Chat text box,Send Keys [<Data>]  to object [<Object>].,Set,Dental kit:Utterances,,Let's Chat Mobile bot
+4,Send button,Click the [<Object>] if it exists,ClickIfExists,,,Let's Chat Mobile bot
+5,Browser,Wait for [<Data>] milli seconds,pause,@5000,,

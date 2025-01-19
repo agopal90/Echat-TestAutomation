@@ -1,0 +1,17 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+false,SC001_Request HSK with quantity,TC003_Towel request for Bellagio,Single,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC004_Blanket request for Bellagio,Single,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC008_Dental kit request Bellagio,Single,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC009_Shaving kit request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC023_Hair dryer request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC024_Crave tablet request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC025_Lights request Bellagio,Single,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC026_Kleenex request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC027_Pillows request Bellagio,Single,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC029_Safe request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC030_Shower Drain request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC031_AC request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC032_Slippers request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC033_TV remote request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC034_Toiletries request Bellagio,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC035_Toilet clogged request Bellagio,Single,Passed,Chrome,Default,Any
