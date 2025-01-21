@@ -1,0 +1,41 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Sep 30 15:45:24 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC001_Aria 1st request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html  |  Condition:  | @30-Sep-2024 15:45:30.030
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @30-Sep-2024 15:45:41.041
+[FAIL]   | Seems Like the Element [Let's Chat button] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Aria 1st request
+Executed Steps       : 2
+Passed Steps         : 1
+Failed Steps         : 1
+Time Taken           : 00:00:17
+---------------------------------------------------
+

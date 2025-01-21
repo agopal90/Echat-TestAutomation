@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utternace
+General-SMS bot,Request Toiletries,1,1,Can you provide me with toiletries?
+General-SMS bot,Request Toiletries,2,1,I’d like to request additional toiletries for my room

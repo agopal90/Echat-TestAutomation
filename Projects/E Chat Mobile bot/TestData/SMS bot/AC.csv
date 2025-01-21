@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request AC,1,1,I’d appreciate it if you could send someone to check the air conditioning; it’s not cooling adequately
+General-SMS bot,Request AC,2,1,Air conditioner

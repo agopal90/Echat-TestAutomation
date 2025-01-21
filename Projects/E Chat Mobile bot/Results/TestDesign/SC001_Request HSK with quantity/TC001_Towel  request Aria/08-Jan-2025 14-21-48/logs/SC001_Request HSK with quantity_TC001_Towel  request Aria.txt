@@ -1,0 +1,131 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Jan 08 14:21:48 IST 2025
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC001_Towel  request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @08-Jan-2025 14:21:52.052
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20Test%20-%20New%20-%20Aria.HTML
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:21:57.057
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:21:57.057
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @08-Jan-2025 14:22:07.007
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @08-Jan-2025 14:22:07.007
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @08-Jan-2025 14:22:10.010
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @08-Jan-2025 14:22:10.010
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @08-Jan-2025 14:22:11.011
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (9606a84b68e91faa094a9dfa19dd3ef5)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Towel:Utternace  |  Condition:  | @08-Jan-2025 14:22:11.011
+[DONE]   | Entered Text 'Can you please send some towels to my room?' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:4  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @08-Jan-2025 14:22:12.012
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:22:17.017
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:22:17.017
+[DONE]   | Clicking on Chat text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @08-Jan-2025 14:22:17.017
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:3  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:22:17.017
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@6000  |  Condition:  | @08-Jan-2025 14:22:23.023
+[DONE]   | Thread sleep for '6000
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:22:28.028
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:5  |  Object:Confirmation message 1  |  Action:assertElementPresent  |  Input:  |  Condition:  | @08-Jan-2025 14:22:28.028
+[PASS]   | Element [Confirmation message 1] is Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Towel  request Aria
+Executed Steps       : 17
+Passed Steps         : 17
+Failed Steps         : 0
+Time Taken           : 00:00:40
+---------------------------------------------------
+

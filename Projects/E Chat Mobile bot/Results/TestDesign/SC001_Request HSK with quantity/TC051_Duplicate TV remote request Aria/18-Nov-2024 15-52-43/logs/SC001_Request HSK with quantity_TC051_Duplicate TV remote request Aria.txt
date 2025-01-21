@@ -1,0 +1,53 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Nov 18 15:52:43 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC051_Duplicate TV remote request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @18-Nov-2024 15:52:48.048
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20Dev%20-%20New%20-%20Aria.HTML
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @18-Nov-2024 15:52:53.053
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @18-Nov-2024 15:52:53.053
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @18-Nov-2024 15:53:03.003
+[DONE]   | Thread sleep for '10000
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC051_Duplicate TV remote request Aria
+Executed Steps       : 4
+Passed Steps         : 4
+Failed Steps         : 0
+Time Taken           : 00:00:19
+---------------------------------------------------
+

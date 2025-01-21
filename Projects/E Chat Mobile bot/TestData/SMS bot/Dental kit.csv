@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Dental kit,1,1," I need a dental kit; could you arrange that? "
+General-SMS bot,Request Dental kit,2,1,Can you send toothbrush and Toothpaste?

@@ -1,0 +1,78 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Jan 06 14:04:10 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:E chat SMS bot] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-34] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 21773
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 21773.
+2025-01-06 14:04:12:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2 | Conditon:  | @06-Jan-2025 14:04:12.012
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @100000 | Conditon:  | @06-Jan-2025 14:04:12.012
+[DONE]   | Thread sleep for '100000
+
+===================================================================================================
+
+Step:3   | Object: May I know your Ph no message | Action: assertElementPresent | Input:  | Conditon:  | @06-Jan-2025 14:05:52.052
+Using @xpath [//div[@aria-label='Chat history, press arrow keys to navigate.']//div[@class='webchat__bubble__content']//*[contains(text(),'May I ask your phone number please')]], Object 'May I know your Ph no message' Found in 43 ms
+[PASS]   | Element [May I know your Ph no message] is Present
+
+===================================================================================================
+
+Step:4   | Object: Text box | Action: doubleClickElement | Input:  | Conditon:  | @06-Jan-2025 14:05:52.052
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 35 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (0ad77e74530336306e7a06773947ca44)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:5   | Object: Text box | Action: Set | Input: @8149715090 | Conditon:  | @06-Jan-2025 14:05:53.053
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 31 ms
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:NewTestCase
+Executed Steps       : 5
+Passed Steps         : 5
+Failed Steps         : 0
+Time Taken           : 00:01:42
+-----------------------------------------------------
+
+Run Finished on Mon Jan 06 14:05:53 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 06-Jan-2025 14-04-10
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:42
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 14-04-10\summary.html
+-----------------------------------------------------
+[Thread-34] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 14-04-10\summary.html
+[Thread-34] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 14-04-10\summary.html]

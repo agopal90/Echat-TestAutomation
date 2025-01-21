@@ -1,0 +1,122 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Dec 02 16:44:47 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC077_Escalation Crave tablet request National Harbour] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-20] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 45331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 45331.
+2024-12-02 16:44:48:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: National harbour URL:URL | Conditon:  | @02-Dec-2024 16:44:48.048
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20National%20Harbour%20LCO.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:44:49.049
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Let's Chat button | Action: Click | Input:  | Conditon:  | @02-Dec-2024 16:44:54.054
+Using @relative_xpath [//label[@id='oc-lcw-chat-button-subtitle']], Object 'Let's Chat button' Found in 87 ms
+[DONE]   | Clicking on Let's Chat button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @02-Dec-2024 16:44:55.055
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:5   | Object: Start conversation text | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:45:05.005
+Using @relative_xpath [//div[@class='webchat__stacked-layout__content']//div[2]//*[contains(text(),'Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.')]], Object 'Start conversation text' Found in 34 ms
+[PASS]   | Element [Start conversation text] is Present
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @02-Dec-2024 16:45:05.005
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:45:08.008
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 34 ms
+[PASS]   | Element [Chat text box] is Present
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: doubleClickElement | Input:  | Conditon:  | @02-Dec-2024 16:45:09.009
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 22 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (99e6fd78b3484abd2e97c5a05e65aa05)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:3   | Object: Chat text box | Action: Set | Input: Crave tablet:Utterances | Conditon:  | @02-Dec-2024 16:45:09.009
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 32 ms
+[DONE]   | Entered Text 'Please send a Crave tablet' on 'Chat text box'
+
+===================================================================================================
+
+Step:4   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @02-Dec-2024 16:45:09.009
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 43 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:45:09.009
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:45:14.014
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:4   | Object: Escalation message | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:45:19.019
+Using @relative_xpath [//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'connect you with a live agent')]], Object 'Escalation message' Found in 32 ms
+[PASS]   | Element [Escalation message] is Present
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC077_Escalation Crave tablet request National Harbour
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:33
+-----------------------------------------------------
+
+Run Finished on Mon Dec 02 16:45:20 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 02-Dec-2024 16-44-47
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:33
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC077_Escalation Crave tablet request National Harbour\02-Dec-2024 16-44-47\summary.html
+-----------------------------------------------------
+[Thread-20] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC077_Escalation Crave tablet request National Harbour\02-Dec-2024 16-44-47\summary.html
+[Thread-20] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC077_Escalation Crave tablet request National Harbour\02-Dec-2024 16-44-47\summary.html]

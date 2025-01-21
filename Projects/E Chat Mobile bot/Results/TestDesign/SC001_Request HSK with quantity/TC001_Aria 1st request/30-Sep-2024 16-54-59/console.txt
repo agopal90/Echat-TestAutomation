@@ -1,0 +1,32 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Sep 30 16:54:59 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC001_Aria 1st request] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-20] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution false
+Shutting Down Thread as there is no need for SelectiveThreading
+Run Finished on Mon Sep 30 16:54:59 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 30-Sep-2024 16-54-59
+Executed TestCases   : 0
+Passed TestCases     : 0
+Failed TestCases     : 0
+Time Taken           : 00:00:00
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Aria 1st request\30-Sep-2024 16-54-59\summary.html
+-----------------------------------------------------
+[Thread-20] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Aria 1st request\30-Sep-2024 16-54-59\summary.html
+[Thread-20] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Aria 1st request\30-Sep-2024 16-54-59\summary.html]

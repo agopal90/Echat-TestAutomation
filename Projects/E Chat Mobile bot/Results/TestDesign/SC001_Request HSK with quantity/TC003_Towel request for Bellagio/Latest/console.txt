@@ -1,0 +1,138 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Oct 01 17:48:29 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC003_Towel request for Bellagio] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-82] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 22088
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 22088.
+2024-10-01 17:48:31:10S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: HTML URL:URL_Bellagio | Conditon:  | @01-Oct-2024 17:48:31.031
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Bellagio%20LCO.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @01-Oct-2024 17:48:34.034
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Let's Chat button | Action: Click | Input:  | Conditon:  | @01-Oct-2024 17:48:39.039
+Using @relative_xpath [//label[@id='oc-lcw-chat-button-subtitle']], Object 'Let's Chat button' Found in 69 ms
+[DONE]   | Clicking on Let's Chat button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @01-Oct-2024 17:48:39.039
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:5   | Object: Start conversation text | Action: assertElementPresent | Input:  | Conditon:  | @01-Oct-2024 17:48:49.049
+Using @relative_xpath [//div[@class='webchat__stacked-layout__content']//div[2]//*[contains(text(),'Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.')]], Object 'Start conversation text' Found in 39 ms
+[PASS]   | Element [Start conversation text] is Present
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @01-Oct-2024 17:48:50.050
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: assertElementPresent | Input:  | Conditon:  | @01-Oct-2024 17:48:53.053
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 23 ms
+[PASS]   | Element [Chat text box] is Present
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: doubleClickElement | Input:  | Conditon:  | @01-Oct-2024 17:48:53.053
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 20 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (81b790b8745ec73767b1d3b21ebabae8)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:3   | Object: Chat text box | Action: Set | Input: Utterances:Utterance | Conditon:  | @01-Oct-2024 17:48:53.053
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 21 ms
+[DONE]   | Entered Text 'Please send extra towels' on 'Chat text box'
+
+===================================================================================================
+
+Step:4   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @01-Oct-2024 17:48:54.054
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 25 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @01-Oct-2024 17:48:54.054
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: Click | Input:  | Conditon:  | @01-Oct-2024 17:48:59.059
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 23 ms
+[DONE]   | Clicking on Chat text box
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: Set | Input: @2 | Conditon:  | @01-Oct-2024 17:48:59.059
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 21 ms
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+===================================================================================================
+
+Step:3   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @01-Oct-2024 17:48:59.059
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 24 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @6000 | Conditon:  | @01-Oct-2024 17:48:59.059
+[DONE]   | Thread sleep for '6000
+
+===================================================================================================
+
+Step:4   | Object: Confirmation message 1 | Action: assertElementPresent | Input:  | Conditon:  | @01-Oct-2024 17:49:05.005
+Using @relative_xpath [//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! ')]], Object 'Confirmation message 1' Found in 540 ms
+[PASS]   | Element [Confirmation message 1] is Present
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC003_Towel request for Bellagio
+Executed Steps       : 16
+Passed Steps         : 16
+Failed Steps         : 0
+Time Taken           : 00:00:37
+-----------------------------------------------------
+
+Run Finished on Tue Oct 01 17:49:06 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 01-Oct-2024 17-48-29
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:37
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC003_Towel request for Bellagio\01-Oct-2024 17-48-29\summary.html
+-----------------------------------------------------

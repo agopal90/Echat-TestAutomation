@@ -1,0 +1,17 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,E chat SMS bot,TC001_SMS Towel request Beau Rivage,3,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC002_SMS blanket request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC003_SMS Dental kit request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC004_SMS Shaving kit request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC005_SMS Drapes request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC007_SMS Lights request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC006_SMS Hair dryer request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC008_SMS Kleenex request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC009_SMS Pillows request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC010_SMS Safe request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC011_SMS Shower drain request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC012_SMS AC request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC013_SMS Slippers request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC014_SMS TV remote request Beau Rivage,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC015_SMS Toiletries request Beau Rivage,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC016_SMS Toilet clogged  request Beau Rivage),All,Passed,Chrome,Default,Any

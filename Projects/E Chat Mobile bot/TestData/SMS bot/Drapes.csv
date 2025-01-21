@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Drapes,1,1,The curtains in my room are stuck and won’t close. Could you assist with this?
+General-SMS bot,Request Drapes,2,1," I’m having trouble with the drapes. Could you help?"
+General-SMS bot,Request Drapes,3,1,Curtains

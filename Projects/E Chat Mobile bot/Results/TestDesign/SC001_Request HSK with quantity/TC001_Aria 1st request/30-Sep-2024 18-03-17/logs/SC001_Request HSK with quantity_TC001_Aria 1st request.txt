@@ -1,0 +1,29 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Sep 30 18:03:17 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC001_Aria 1st request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Aria 1st request
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:03
+---------------------------------------------------
+

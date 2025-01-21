@@ -1,0 +1,143 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Dec 10 13:24:34 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC037_Towel request Vdara] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-4] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 28834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 28834.
+2024-12-10 13:24:36:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: Vdara URL:URL | Conditon:  | @10-Dec-2024 13:24:36.036
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Vdara%20LCO.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @10-Dec-2024 13:24:38.038
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Let's Chat button | Action: Click | Input:  | Conditon:  | @10-Dec-2024 13:24:43.043
+Using @relative_xpath [//label[@id='oc-lcw-chat-button-subtitle']], Object 'Let's Chat button' Found in 107 ms
+[DONE]   | Clicking on Let's Chat button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @10-Dec-2024 13:24:44.044
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:5   | Object: Start conversation text | Action: assertElementPresent | Input:  | Conditon:  | @10-Dec-2024 13:24:54.054
+Using @relative_xpath [//div[@class='webchat__stacked-layout__content']//div[2]//*[contains(text(),'Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.')]], Object 'Start conversation text' Found in 34 ms
+[PASS]   | Element [Start conversation text] is Present
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @10-Dec-2024 13:24:54.054
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: assertElementPresent | Input:  | Conditon:  | @10-Dec-2024 13:24:57.057
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 43 ms
+[PASS]   | Element [Chat text box] is Present
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: doubleClickElement | Input:  | Conditon:  | @10-Dec-2024 13:24:58.058
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 37 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (610526d15d4abffdad928191ff5d1e73)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:3   | Object: Chat text box | Action: Set | Input: Towel:Utternace | Conditon:  | @10-Dec-2024 13:24:58.058
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 38 ms
+[DONE]   | Entered Text 'Can you please send some towels to my room?' on 'Chat text box'
+
+===================================================================================================
+
+Step:4   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @10-Dec-2024 13:24:58.058
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 35 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @10-Dec-2024 13:24:59.059
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: Click | Input:  | Conditon:  | @10-Dec-2024 13:25:04.004
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 26 ms
+[DONE]   | Clicking on Chat text box
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: Set | Input: Quantity:Q | Conditon:  | @10-Dec-2024 13:25:04.004
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 38 ms
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+===================================================================================================
+
+Step:3   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @10-Dec-2024 13:25:04.004
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 30 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @6000 | Conditon:  | @10-Dec-2024 13:25:04.004
+[DONE]   | Thread sleep for '6000
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @10-Dec-2024 13:25:10.010
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:5   | Object: Confirmation message 1 | Action: assertElementPresent | Input:  | Conditon:  | @10-Dec-2024 13:25:15.015
+Using @relative_xpath [//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! ')]], Object 'Confirmation message 1' Found in 2645 ms
+[PASS]   | Element [Confirmation message 1] is Present
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC037_Towel request Vdara
+Executed Steps       : 17
+Passed Steps         : 17
+Failed Steps         : 0
+Time Taken           : 00:00:44
+-----------------------------------------------------
+
+Run Finished on Tue Dec 10 13:25:18 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 10-Dec-2024 13-24-34
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:44
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC037_Towel request Vdara\10-Dec-2024 13-24-34\summary.html
+-----------------------------------------------------

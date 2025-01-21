@@ -1,0 +1,120 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Dec 02 16:54:24 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC079_Escalation Safe request National Harbour] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-26] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 35068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 35068.
+2024-12-02 16:54:25:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: National harbour URL:URL | Conditon:  | @02-Dec-2024 16:54:25.025
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20National%20Harbour%20LCO.html
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:54:27.027
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Let's Chat button | Action: Click | Input:  | Conditon:  | @02-Dec-2024 16:54:32.032
+Using @relative_xpath [//label[@id='oc-lcw-chat-button-subtitle']], Object 'Let's Chat button' Found in 86 ms
+[DONE]   | Clicking on Let's Chat button
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: pause | Input: @10000 | Conditon:  | @02-Dec-2024 16:54:32.032
+[DONE]   | Thread sleep for '10000
+
+===================================================================================================
+
+Step:5   | Object: Start conversation text | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:54:42.042
+Using @relative_xpath [//div[@class='webchat__stacked-layout__content']//div[2]//*[contains(text(),'Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.')]], Object 'Start conversation text' Found in 36 ms
+[PASS]   | Element [Start conversation text] is Present
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @02-Dec-2024 16:54:43.043
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:1   | Object: Chat text box | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:54:46.046
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 26 ms
+[PASS]   | Element [Chat text box] is Present
+
+===================================================================================================
+
+Step:2   | Object: Chat text box | Action: doubleClickElement | Input:  | Conditon:  | @02-Dec-2024 16:54:46.046
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 27 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (f56a539e26475773dfc04f25606f3f19)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:3   | Object: Chat text box | Action: Set | Input: Safe:Utterances | Conditon:  | @02-Dec-2024 16:54:47.047
+Using @relative_xpath [//div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']], Object 'Chat text box' Found in 33 ms
+[DONE]   | Entered Text 'The safe is not operational; could you please send someone to address this?' on 'Chat text box'
+
+===================================================================================================
+
+Step:4   | Object: Send button | Action: ClickIfExists | Input:  | Conditon:  | @02-Dec-2024 16:54:47.047
+Using @relative_xpath [//div[@class='webchat__send-box__main']//button[@title='Send']], Object 'Send button' Found in 31 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:54:47.047
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @02-Dec-2024 16:54:52.052
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:4   | Object: Escalation message | Action: assertElementPresent | Input:  | Conditon:  | @02-Dec-2024 16:54:57.057
+Using @relative_xpath [//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'connect you with a live agent')]], Object 'Escalation message' Found in 30 ms
+[PASS]   | Element [Escalation message] is Present
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC079_Escalation Safe request National Harbour
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:33
+-----------------------------------------------------
+
+Run Finished on Mon Dec 02 16:54:58 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 02-Dec-2024 16-54-24
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:33
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC079_Escalation Safe request National Harbour\02-Dec-2024 16-54-24\summary.html
+-----------------------------------------------------

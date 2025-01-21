@@ -1,0 +1,47 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Oct 21 16:12:17 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC006_Dental kit request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:0  |  Object:  |  Action:  |  Input:  |  Condition:  | @21-Oct-2024 16:12:19.019
+[DEBUG]   | [Could not find Action]
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @21-Oct-2024 16:12:29.029
+[FAIL]   | Element [Chat text box] is not Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @21-Oct-2024 16:12:40.040
+[FAIL]   | Seems Like the Element [Chat text box] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC006_Dental kit request Aria
+Executed Steps       : 3
+Passed Steps         : 0
+Failed Steps         : 3
+Time Taken           : 00:00:23
+---------------------------------------------------
+

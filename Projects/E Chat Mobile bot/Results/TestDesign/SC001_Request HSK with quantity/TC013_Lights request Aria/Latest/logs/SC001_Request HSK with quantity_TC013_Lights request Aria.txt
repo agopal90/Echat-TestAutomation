@@ -1,0 +1,107 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Oct 24 15:55:50 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC013_Lights request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @24-Oct-2024 15:55:55.055
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @24-Oct-2024 15:56:00.000
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @24-Oct-2024 15:56:00.000
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @24-Oct-2024 15:56:10.010
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @24-Oct-2024 15:56:10.010
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @24-Oct-2024 15:56:14.014
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @24-Oct-2024 15:56:14.014
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @24-Oct-2024 15:56:14.014
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (fb62ceb57e3dfb4b25e2162fa616f8b0)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Light:Utterance  |  Condition:  | @24-Oct-2024 15:56:15.015
+[DONE]   | Entered Text ' I’m having trouble with the lights in my room. Can you arrange for maintenance to take a look?' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:4  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @24-Oct-2024 15:56:15.015
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @24-Oct-2024 15:56:20.020
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @24-Oct-2024 15:56:25.025
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:4  |  Object:Confirmation message 1  |  Action:assertElementPresent  |  Input:  |  Condition:  | @24-Oct-2024 15:56:25.025
+[PASS]   | Element [Confirmation message 1] is Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC013_Lights request Aria
+Executed Steps       : 13
+Passed Steps         : 13
+Failed Steps         : 0
+Time Taken           : 00:00:36
+---------------------------------------------------
+

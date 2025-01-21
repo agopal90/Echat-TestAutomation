@@ -1,26 +1,26 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-false,SC001_Request HSK with quantity,TC001_Towel  request Aria,All,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC002_Blanket  request Aria,All,Passed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC006_Dental kit request Aria,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC001_Towel  request Aria,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC002_Blanket  request Aria,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC006_Dental kit request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC007_Shaving kit request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC010_Drapes request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC011_Hair dryer request Aria,All,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC012_Crave Tablet  request Aria,All,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC013_Lights request Aria,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC012_Crave Tablet  request Aria,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC013_Lights request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC014_Kleenex request Aria,All,Passed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC015_Pillows request Aria,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC015_Pillows request Aria,All,Failed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC017_Shower drain request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC018_AC request Aria,Single,Passed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC019_Slippers request Aria,Single,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC019_Slippers request Aria,Single,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC020_TV remote request Aria,Single,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC021_Toiletries request Aria,Single,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC022_Toilet clogged  request Aria,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC051_Duplicate TV remote request Aria,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC051_Duplicate TV remote request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC052_Duplicate Decline housekeeping  request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC053_Duplicate Toilet clogged  request Aria,All,Failed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC054_Duplicate Shaving kit  request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC053_Duplicate Towel  request Aria,All,Passed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC054_Duplicate Blanket  request Aria,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC054_Duplicate Blanket  request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC055_Duplicate Kleenex request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC056_Duplicate AC request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC057_Duplicate Shower drain request Aria,All,Passed,Chrome,Default,Any
@@ -31,6 +31,6 @@ false,SC001_Request HSK with quantity,TC061_Duplicate Lights request Aria,All,Fa
 false,SC001_Request HSK with quantity,TC062_Duplicate Crave Tablet  request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC063_Duplicate Dental kit request Aria,All,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC064_Duplicate Safe request Aria,All,Failed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC065_Duplicate Pillows request Aria,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC065_Duplicate Pillows request Aria,All,Failed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC066_Duplicate Slippers request Aria,All,Failed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC067_Duplicate Toiletries request Aria,All,Passed,Chrome,Default,Any

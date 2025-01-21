@@ -1,0 +1,17 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,E chat SMS bot,TC001_SMS Towel request Aria,All,Passed,Chrome,Default,Any
+true,E chat SMS bot,TC002_SMS blanket request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC003_SMS Dental kit request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC004_SMS Shaving kit request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC005_SMS Drapes request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC006_SMS Hair dryer request Aria,All,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC007_SMS Lights request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC008_SMS Kleenex request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC009_SMS Pillows request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC010_SMS Safe request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC011_SMS Shower drain request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC012_SMS AC request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC013_SMS Slippers request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC014_SMS TV remote request Aria,Single,Passed,Chrome,Default,Any
+false,E chat SMS bot,TC015_SMS Toiletries request Aria,All,Failed,Chrome,Default,Any
+false,E chat SMS bot,TC016_SMS Toilet clogged  request Aria,Single,Passed,Chrome,Default,Any

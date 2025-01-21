@@ -1,0 +1,107 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Oct 21 16:53:50 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC009_Shaving kit request Bellagio]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Bellagio URL:URL_Bellagio  |  Condition:  | @21-Oct-2024 16:53:55.055
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Bellagio%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @21-Oct-2024 16:54:00.000
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @21-Oct-2024 16:54:01.001
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @21-Oct-2024 16:54:11.011
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @21-Oct-2024 16:54:11.011
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @21-Oct-2024 16:54:14.014
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:0  |  Object:  |  Action:  |  Input:  |  Condition:  | @21-Oct-2024 16:54:14.014
+[DEBUG]   | [Could not find Action]
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:Click  |  Input:  |  Condition:  | @21-Oct-2024 16:54:14.014
+[DONE]   | Clicking on Chat text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @21-Oct-2024 16:54:14.014
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:3  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @21-Oct-2024 16:54:14.014
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@6000  |  Condition:  | @21-Oct-2024 16:54:20.020
+[DONE]   | Thread sleep for '6000
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @21-Oct-2024 16:54:25.025
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:5  |  Object:Confirmation message 1  |  Action:assertElementPresent  |  Input:  |  Condition:  | @21-Oct-2024 16:54:36.036
+[FAIL]   | Element [Confirmation message 1] is not Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC009_Shaving kit request Bellagio
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:00:46
+---------------------------------------------------
+

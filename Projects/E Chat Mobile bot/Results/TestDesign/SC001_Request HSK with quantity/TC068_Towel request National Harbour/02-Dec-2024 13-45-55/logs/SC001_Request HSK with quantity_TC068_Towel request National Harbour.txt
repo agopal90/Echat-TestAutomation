@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Dec 02 13:45:55 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC068_Towel request National Harbour]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Vdara URL:URL  |  Condition:  | @02-Dec-2024 13:45:57.057
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Vdara URL | Field : URL | TestCase : SC001_Request HSK with quantity/TC068_Towel request National Harbour | Reusabe : General/Launch Web Chat_National Harbour ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Vdara URL:URL  |  Condition:  | @02-Dec-2024 13:45:57.057
+[DEBUG]   | Error in testcase [//General/Launch Web Chat_National Harbour]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC068_Towel request National Harbour
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:02
+---------------------------------------------------
+

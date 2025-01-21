@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Jan 09 17:48:09 IST 2025
+
+Scenario         :  [E chat SMS bot]
+TestCase         :  [TC005_SMS Drapes request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @09-Jan-2025 17:48:11.011
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : SMS bot | Sheet : Aria URL | Field : URL | TestCase : E chat SMS bot/TC005_SMS Drapes request Aria | Reusabe : General/Launch Web Chat_Aria ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @09-Jan-2025 17:48:11.011
+[DEBUG]   | Error in testcase [//General/Launch Web Chat_Aria]
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:TC005_SMS Drapes request Aria
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+---------------------------------------------------
+

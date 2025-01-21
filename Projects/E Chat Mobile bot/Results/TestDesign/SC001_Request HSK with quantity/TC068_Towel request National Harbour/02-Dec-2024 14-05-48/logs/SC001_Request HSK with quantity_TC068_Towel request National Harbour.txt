@@ -1,0 +1,131 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Dec 02 14:05:48 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC068_Towel request National Harbour]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:National harbour URL:URL  |  Condition:  | @02-Dec-2024 14:05:51.051
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20National%20Harbour%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @02-Dec-2024 14:05:56.056
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @02-Dec-2024 14:05:56.056
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @02-Dec-2024 14:06:06.006
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @02-Dec-2024 14:06:07.007
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @02-Dec-2024 14:06:10.010
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @02-Dec-2024 14:06:10.010
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @02-Dec-2024 14:06:11.011
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (529f99091d5059f94673761df11e9010)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Towel:Utternace  |  Condition:  | @02-Dec-2024 14:06:11.011
+[DONE]   | Entered Text 'Can you please send some towels to my room?' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:4  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @02-Dec-2024 14:06:11.011
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @02-Dec-2024 14:06:16.016
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:Click  |  Input:  |  Condition:  | @02-Dec-2024 14:06:16.016
+[DONE]   | Clicking on Chat text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @02-Dec-2024 14:06:16.016
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:3  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @02-Dec-2024 14:06:17.017
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@6000  |  Condition:  | @02-Dec-2024 14:06:23.023
+[DONE]   | Thread sleep for '6000
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @02-Dec-2024 14:06:28.028
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:5  |  Object:Confirmation message 1  |  Action:assertElementPresent  |  Input:  |  Condition:  | @02-Dec-2024 14:06:38.038
+[FAIL]   | Element [Confirmation message 1] is not Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC068_Towel request National Harbour
+Executed Steps       : 17
+Passed Steps         : 16
+Failed Steps         : 1
+Time Taken           : 00:00:50
+---------------------------------------------------
+

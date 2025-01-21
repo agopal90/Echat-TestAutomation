@@ -1,16 +1,16 @@
 Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
 true,SC001_Request HSK with quantity,TC037_Towel request Vdara,All,Failed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC036_Toilet clogged request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC005_Towel  request Vdara,Single,Failed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC038_Blanket request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC039_Pillow request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC040_Dental kit request Vdara,Single,Failed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC041_Shaving kit request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC042_Drapes request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC043_Kleenex request Vdara,Single,Passed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC045_Hotsos code missing Crave tablet request Vdara,Single,Passed,Chrome,Default,Any
-false,SC001_Request HSK with quantity,TC044_Hair dryer request Vdara,Single,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC036_Toilet clogged request Vdara,All,Passed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC005_Towel  request Vdara,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC038_Blanket request Vdara,All,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC039_Pillow request Vdara,All,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC040_Dental kit request Vdara,All,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC041_Shaving kit request Vdara,All,Failed,Chrome,Default,Any
+false,SC001_Request HSK with quantity,TC042_Drapes request Vdara,All,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC043_Kleenex request Vdara,All,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC045_Hotsos code missing Crave tablet request Vdara,All,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC044_Hair dryer request Vdara,All,Failed,Chrome,Default,Any
 true,SC001_Request HSK with quantity,TC046_Lights request Vdara,Single,Failed,Chrome,Default,Any
-true,SC001_Request HSK with quantity,TC047_Hotsos code missing Safe request Vdara,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC047_Hotsos code missing Safe request Vdara,Single,Failed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC048_AC request Vdara,Single,Passed,Chrome,Default,Any
 false,SC001_Request HSK with quantity,TC040_Shower drain request Vdara,Single,Passed,Chrome,Default,Any

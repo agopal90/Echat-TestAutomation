@@ -1,0 +1,114 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Jan 08 14:20:29 IST 2025
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [KT demo_Aria towel request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:KT demo AriaURL:Data1  |  Condition:  | @08-Jan-2025 14:20:33.033
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:20:38.038
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:20:38.038
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:20:43.043
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:5  |  Object:Welcome message Copy(1)  |  Action:assertElementPresent  |  Input:  |  Condition:  | @08-Jan-2025 14:20:43.043
+[PASS]   | Element [Welcome message Copy(1)] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Text box  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:20:44.044
+[DONE]   | Clicking on Text box
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:20:49.049
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Text box  |  Action:Set  |  Input:Towel test:Utterances  |  Condition:  | @08-Jan-2025 14:20:49.049
+[DONE]   | Entered Text 'Can you please send some towels to my room?' on 'Text box'
+
+
+===================================================================================================
+
+Step:2  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @08-Jan-2025 14:20:49.049
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:3  |  Object:Browser  |  Action:pause  |  Input:@15000  |  Condition:  | @08-Jan-2025 14:21:04.004
+[DONE]   | Thread sleep for '15000
+
+
+===================================================================================================
+
+Step:4  |  Object:Quanity  |  Action:assertElementPresent  |  Input:  |  Condition:  | @08-Jan-2025 14:21:14.014
+[FAIL]   | Element [Quanity] is not Present
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @08-Jan-2025 14:21:20.020
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:6  |  Object:Text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @08-Jan-2025 14:21:20.020
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : Mobile bot | Sheet : Quantity | Field : Q | TestCase : SC001_Request HSK with quantity/KT demo_Aria towel request | Reusabe : KT demo/Request towel test ]
+
+
+===================================================================================================
+
+Step:6  |  Object:Text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @08-Jan-2025 14:21:20.020
+[DEBUG]   | Error in testcase [//KT demo/Request towel test]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:KT demo_Aria towel request
+Executed Steps       : 14
+Passed Steps         : 11
+Failed Steps         : 3
+Time Taken           : 00:00:50
+---------------------------------------------------
+

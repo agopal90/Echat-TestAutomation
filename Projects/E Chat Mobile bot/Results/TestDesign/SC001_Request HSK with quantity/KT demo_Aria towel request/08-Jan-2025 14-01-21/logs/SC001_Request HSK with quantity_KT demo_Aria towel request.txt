@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Jan 08 14:01:21 IST 2025
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [KT demo_Aria towel request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:KT demo AriaURL:Data1  |  Condition:  | @08-Jan-2025 14:01:23.023
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : SMS bot | Sheet : KT demo AriaURL | Field : Data1 | TestCase : SC001_Request HSK with quantity/KT demo_Aria towel request | Reusabe : General/KT demo Aria login ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:KT demo AriaURL:Data1  |  Condition:  | @08-Jan-2025 14:01:23.023
+[DEBUG]   | Error in testcase [//General/KT demo Aria login]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:KT demo_Aria towel request
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+---------------------------------------------------
+

@@ -1,0 +1,185 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Nov 21 11:50:31 IST 2024
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC052_Duplicate Decline housekeeping  request Aria] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-46] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 42560
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 42560.
+2024-11-21 11:50:33:11S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 131.0.6778.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7BBA3B125+29573]
+	(No symbol) [0x00007FF7BB9AFF50]
+	(No symbol) [0x00007FF7BB86B6EA]
+	(No symbol) [0x00007FF7BB8ADF67]
+	(No symbol) [0x00007FF7BB8ACFFB]
+	(No symbol) [0x00007FF7BB8A7B1E]
+	(No symbol) [0x00007FF7BB8A268E]
+	(No symbol) [0x00007FF7BB8F30F0]
+	(No symbol) [0x00007FF7BB8F2780]
+	(No symbol) [0x00007FF7BB8E70A3]
+	(No symbol) [0x00007FF7BB8B12DF]
+	(No symbol) [0x00007FF7BB8B2441]
+	GetHandleVerifier [0x00007FF7BBD6C76D+3377613]
+	GetHandleVerifier [0x00007FF7BBDB7B67+3685831]
+	GetHandleVerifier [0x00007FF7BBDACF8B+3641835]
+	GetHandleVerifier [0x00007FF7BBAFB2A6+816390]
+	(No symbol) [0x00007FF7BB9BB25F]
+	(No symbol) [0x00007FF7BB9B7084]
+	(No symbol) [0x00007FF7BB9B7220]
+	(No symbol) [0x00007FF7BB9A607F]
+	BaseThreadInitThunk [0x00007FF910C57374+20]
+	RtlUserThreadStart [0x00007FF910F3CC91+33]
+
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 131.0.6778.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7BBA3B125+29573]
+	(No symbol) [0x00007FF7BB9AFF50]
+	(No symbol) [0x00007FF7BB86B6EA]
+	(No symbol) [0x00007FF7BB8ADF67]
+	(No symbol) [0x00007FF7BB8ACFFB]
+	(No symbol) [0x00007FF7BB8A7B1E]
+	(No symbol) [0x00007FF7BB8A268E]
+	(No symbol) [0x00007FF7BB8F30F0]
+	(No symbol) [0x00007FF7BB8F2780]
+	(No symbol) [0x00007FF7BB8E70A3]
+	(No symbol) [0x00007FF7BB8B12DF]
+	(No symbol) [0x00007FF7BB8B2441]
+	GetHandleVerifier [0x00007FF7BBD6C76D+3377613]
+	GetHandleVerifier [0x00007FF7BBDB7B67+3685831]
+	GetHandleVerifier [0x00007FF7BBDACF8B+3641835]
+	GetHandleVerifier [0x00007FF7BBAFB2A6+816390]
+	(No symbol) [0x00007FF7BB9BB25F]
+	(No symbol) [0x00007FF7BB9B7084]
+	(No symbol) [0x00007FF7BB9B7220]
+	(No symbol) [0x00007FF7BB9A607F]
+	BaseThreadInitThunk [0x00007FF910C57374+20]
+	RtlUserThreadStart [0x00007FF910F3CC91+33]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:189)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:168)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:158)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:155)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:125)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+[DEBUG]   | session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 131.0.6778.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7BBA3B125+29573]
+	(No symbol) [0x00007FF7BB9AFF50]
+	(No symbol) [0x00007FF7BB86B6EA]
+	(No symbol) [0x00007FF7BB8ADF67]
+	(No symbol) [0x00007FF7BB8ACFFB]
+	(No symbol) [0x00007FF7BB8A7B1E]
+	(No symbol) [0x00007FF7BB8A268E]
+	(No symbol) [0x00007FF7BB8F30F0]
+	(No symbol) [0x00007FF7BB8F2780]
+	(No symbol) [0x00007FF7BB8E70A3]
+	(No symbol) [0x00007FF7BB8B12DF]
+	(No symbol) [0x00007FF7BB8B2441]
+	GetHandleVerifier [0x00007FF7BBD6C76D+3377613]
+	GetHandleVerifier [0x00007FF7BBDB7B67+3685831]
+	GetHandleVerifier [0x00007FF7BBDACF8B+3641835]
+	GetHandleVerifier [0x00007FF7BBAFB2A6+816390]
+	(No symbol) [0x00007FF7BB9BB25F]
+	(No symbol) [0x00007FF7BB9B7084]
+	(No symbol) [0x00007FF7BB9B7220]
+	(No symbol) [0x00007FF7BB9A607F]
+	BaseThreadInitThunk [0x00007FF910C57374+20]
+	RtlUserThreadStart [0x00007FF910F3CC91+33]
+
+
+===================================================================================================
+
+2024-11-21 11:50:33:11S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task run:Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:159)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:192)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:180)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:137)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC052_Duplicate Decline housekeeping  request Aria
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Thu Nov 21 11:50:33 IST 2024
+-----------------------------------------------------
+ExecutionDate        : 21-Nov-2024 11-50-31
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC052_Duplicate Decline housekeeping  request Aria\21-Nov-2024 11-50-31\summary.html
+-----------------------------------------------------
+[Thread-46] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC052_Duplicate Decline housekeeping  request Aria\21-Nov-2024 11-50-31\summary.html
+[Thread-46] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC052_Duplicate Decline housekeeping  request Aria\21-Nov-2024 11-50-31\summary.html]

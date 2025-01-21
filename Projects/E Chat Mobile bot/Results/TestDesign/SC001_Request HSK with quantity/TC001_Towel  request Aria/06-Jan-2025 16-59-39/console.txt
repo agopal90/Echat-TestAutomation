@@ -1,0 +1,88 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Jan 06 16:59:39 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:SC001_Request HSK with quantity] [TestCase: TC001_Towel  request Aria] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-55] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 1745
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 1745.
+2025-01-06 16:59:40:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: Aria URL:URL | Conditon:  | @06-Jan-2025 16:59:40.040
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Aria URL | Field : URL | TestCase : SC001_Request HSK with quantity/TC001_Towel  request Aria | Reusabe : General/Launch Web Chat_Aria ]
+
+===================================================================================================
+
+2025-01-06 16:59:40:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Error in testcase [//General/Launch Web Chat_Aria]
+com.cognizant.cognizantits.engine.execution.exception.TestFailedException: Error in testcase [//General/Launch Web Chat_Aria]
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.onDataNotFoundException(TestCaseRunner.java:308)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:352)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Aria URL | Field : URL | TestCase : SC001_Request HSK with quantity/TC001_Towel  request Aria | Reusabe : General/Launch Web Chat_Aria ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:287)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:181)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	... 11 more
+
+[DEBUG]   | Error in testcase [//General/Launch Web Chat_Aria]
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Towel  request Aria
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+-----------------------------------------------------
+
+Run Finished on Mon Jan 06 16:59:40 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 06-Jan-2025 16-59-39
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:01
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Towel  request Aria\06-Jan-2025 16-59-39\summary.html
+-----------------------------------------------------
+[Thread-55] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Towel  request Aria\06-Jan-2025 16-59-39\summary.html
+[Thread-55] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\SC001_Request HSK with quantity\TC001_Towel  request Aria\06-Jan-2025 16-59-39\summary.html]

@@ -1,0 +1,359 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Jan 16 15:24:08 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:E chat SMS bot] [TestCase: TC018_SMS blanket request Springfield] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-74] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 2421
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 2421.
+2025-01-16 15:24:10:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2 | Conditon:  | @16-Jan-2025 15:24:10.010
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @40000 | Conditon:  | @16-Jan-2025 15:24:12.012
+[DONE]   | Thread sleep for '40000
+
+===================================================================================================
+
+Step:3   | Object: May I know your Ph no message | Action: assertElementPresent | Input:  | Conditon:  | @16-Jan-2025 15:24:52.052
+Using @xpath [//div[@aria-label='Chat history, press arrow keys to navigate.']//div[@class='webchat__bubble__content']//*[contains(text(),'May I ask your phone number please')]], Object 'May I know your Ph no message' Found in 8255 ms
+[PASS]   | Element [May I know your Ph no message] is Present
+
+===================================================================================================
+
+Step:4   | Object: Text box | Action: doubleClickElement | Input:  | Conditon:  | @16-Jan-2025 15:25:01.001
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 31 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (c4e503cd667dd6eb9c304d28bd7cba76)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:5   | Object: Text box | Action: Set | Input: @8149715090 | Conditon:  | @16-Jan-2025 15:25:01.001
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 21 ms
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+===================================================================================================
+
+Step:6   | Object: Send button | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:02.002
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 40 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @16-Jan-2025 15:25:02.002
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:8   | Object: Yes | Action: waitForElementToBePresent | Input:  | Conditon:  | @16-Jan-2025 15:25:07.007
+Using @xpath [//button[@type='button']//span[contains(text(),'Yes')]], Object 'Yes' Found in 3592 ms
+[PASS]   | 'Yes' Element Present in the stipulated time
+
+===================================================================================================
+
+Step:9   | Object: Yes | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:11.011
+Using @xpath [//button[@type='button']//span[contains(text(),'Yes')]], Object 'Yes' Found in 22 ms
+[DONE]   | Clicking on Yes
+
+===================================================================================================
+
+Step:10  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @16-Jan-2025 15:25:11.011
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:11  | Object: Text box | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:14.014
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 21 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:12  | Object: Text box | Action: Set | Input: @+18552367329 | Conditon:  | @16-Jan-2025 15:25:14.014
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 19 ms
+[DONE]   | Entered Text '+18552367329' on 'Text box'
+
+===================================================================================================
+
+Step:13  | Object: Send button | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:14.014
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 19 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:1   | Object: Text box | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:14.014
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 20 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @16-Jan-2025 15:25:14.014
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:3   | Object: Text box | Action: Set | Input: Blanket:Utterance | Conditon:  | @16-Jan-2025 15:25:19.019
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 22 ms
+[DONE]   | Entered Text 'I will need some extra duvets in my room. Can you please send them over?' on 'Text box'
+
+===================================================================================================
+
+Step:4   | Object: Send button | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:20.020
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 23 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:5   | Object: Room number message | Action: assertElementPresent | Input:  | Conditon:  | @16-Jan-2025 15:25:20.020
+Element could not be identified with [xpath] : [//div[@class='webchat__bubble__content']//*[contains(text(),'Please provide your room number without any special characters. (example: 9123)')]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class='webchat__bubble__content']//*[contains(text(),'Please provide your room number without any special characters. (example: 9123)')] (tried for 10 second(s) with 500 milliseconds interval)
+
+2025-01-16 15:25:30:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$689/0x0000021b986c4d10@1734226e (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\AGOPAL\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4e503cd667dd6eb9c304d28bd7cba76
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Room number message' in stipulated Time '10' Seconds
+[FAIL]   | Element [Room number message] is not Present
+
+===================================================================================================
+
+2025-01-16 15:25:31:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Element [Room number message] is not Present
+com.cognizant.cognizantits.engine.execution.exception.ForcedException: Element [Room number message] is not Present
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:82)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:87)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElementPresent(AssertElement.java:57)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:6   | Object: Text box | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:31.031
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 24 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:7   | Object: Text box | Action: Set | Input: @176 | Conditon:  | @16-Jan-2025 15:25:31.031
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 25 ms
+[DONE]   | Entered Text '176' on 'Text box'
+
+===================================================================================================
+
+Step:8   | Object: Send button | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:31.031
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 29 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:9   | Object: How many do you need | Action: assertElementPresent | Input:  | Conditon:  | @16-Jan-2025 15:25:31.031
+Using @xpath [//div[@class='webchat__bubble__content']//*[contains(text(),'How many do you need? (please type 1, 2, 3, or 4)')]], Object 'How many do you need' Found in 543 ms
+[PASS]   | Element [How many do you need] is Present
+
+===================================================================================================
+
+Step:10  | Object: Text box | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:32.032
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 20 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:11  | Object: Text box | Action: Set | Input: @3 | Conditon:  | @16-Jan-2025 15:25:32.032
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 22 ms
+[DONE]   | Entered Text '3' on 'Text box'
+
+===================================================================================================
+
+Step:12  | Object: Send button | Action: Click | Input:  | Conditon:  | @16-Jan-2025 15:25:32.032
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 20 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:13  | Object: Confirmation message | Action: assertElementPresent | Input:  | Conditon:  | @16-Jan-2025 15:25:33.033
+Element could not be identified with [xpath] : [//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! We')]]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! We')] (tried for 10 second(s) with 500 milliseconds interval)
+
+2025-01-16 15:25:43:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$689/0x0000021b986c4d10@1723570b (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\AGOPAL\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4e503cd667dd6eb9c304d28bd7cba76
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025-01-16 15:25:53:01S +0530 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cognizant.cognizantits.engine.drivers.AutomationObject$$Lambda$689/0x0000021b986c4d10@5801ca18 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CTXPCONTWRK2445', ip: '10.76.140.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\AGOPAL\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4e503cd667dd6eb9c304d28bd7cba76
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:322)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:273)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:260)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:136)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:129)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:98)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:183)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Couldn't find Object 'Confirmation message' in stipulated Time '10' Seconds
+[FAIL]   | Element [Confirmation message] is not Present
+
+===================================================================================================
+
+2025-01-16 15:25:53:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.execution.run.TestCaseRunner onRuntimeException:Element [Confirmation message] is not Present
+com.cognizant.cognizantits.engine.execution.exception.ForcedException: Element [Confirmation message] is not Present
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:82)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElement(AssertElement.java:87)
+	at com.cognizant.cognizantits.engine.commands.AssertElement.assertElementPresent(AssertElement.java:57)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+Step:14  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @16-Jan-2025 15:25:53.053
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:TC018_SMS blanket request Springfield
+Executed Steps       : 27
+Passed Steps         : 25
+Failed Steps         : 2
+Time Taken           : 00:01:50
+-----------------------------------------------------
+
+Run Finished on Thu Jan 16 15:25:58 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 16-Jan-2025 15-24-08
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:50
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC018_SMS blanket request Springfield\16-Jan-2025 15-24-08\summary.html
+-----------------------------------------------------
+[Thread-74] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC018_SMS blanket request Springfield\16-Jan-2025 15-24-08\summary.html
+[Thread-74] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC018_SMS blanket request Springfield\16-Jan-2025 15-24-08\summary.html]

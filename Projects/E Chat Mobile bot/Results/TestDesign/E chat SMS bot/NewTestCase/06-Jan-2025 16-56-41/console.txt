@@ -1,0 +1,150 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Jan 06 16:56:41 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:E chat SMS bot] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-53] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 34686
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 34686.
+2025-01-06 16:56:43:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2 | Conditon:  | @06-Jan-2025 16:56:43.043
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @40000 | Conditon:  | @06-Jan-2025 16:56:45.045
+[DONE]   | Thread sleep for '40000
+
+===================================================================================================
+
+Step:3   | Object: May I know your Ph no message | Action: assertElementPresent | Input:  | Conditon:  | @06-Jan-2025 16:57:25.025
+Using @xpath [//div[@aria-label='Chat history, press arrow keys to navigate.']//div[@class='webchat__bubble__content']//*[contains(text(),'May I ask your phone number please')]], Object 'May I know your Ph no message' Found in 7711 ms
+[PASS]   | Element [May I know your Ph no message] is Present
+
+===================================================================================================
+
+Step:4   | Object: Text box | Action: doubleClickElement | Input:  | Conditon:  | @06-Jan-2025 16:57:33.033
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 37 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (14f13f1e100a4abb39943297b910dcd8)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:5   | Object: Text box | Action: Set | Input: @8149715090 | Conditon:  | @06-Jan-2025 16:57:33.033
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 21 ms
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+===================================================================================================
+
+Step:6   | Object: Send button | Action: Click | Input:  | Conditon:  | @06-Jan-2025 16:57:34.034
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 25 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @06-Jan-2025 16:57:34.034
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:8   | Object: Yes | Action: waitForElementToBePresent | Input:  | Conditon:  | @06-Jan-2025 16:57:39.039
+Using @xpath [//button[@type='button']//span[contains(text(),'Yes')]], Object 'Yes' Found in 30 ms
+[PASS]   | 'Yes' Element Present in the stipulated time
+
+===================================================================================================
+
+Step:9   | Object: No | Action: Click | Input:  | Conditon:  | @06-Jan-2025 16:57:39.039
+Using @xpath [//button[@type='button']//span[contains(text(),'No')]], Object 'No' Found in 31 ms
+[DONE]   | Clicking on No
+
+===================================================================================================
+
+Step:10  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @06-Jan-2025 16:57:40.040
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:1   | Object: Text box | Action: Click | Input:  | Conditon:  | @06-Jan-2025 16:57:45.045
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 30 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:2   | Object: Text box | Action: Set | Input: Towel:Utternace | Conditon:  | @06-Jan-2025 16:57:45.045
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Towel | Field : Utternace | TestCase : E chat SMS bot/NewTestCase | Reusabe : General-SMS bot/Request towel ]
+
+===================================================================================================
+
+2025-01-06 16:57:45:01S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Error in testcase [//General-SMS bot/Request towel]
+com.cognizant.cognizantits.engine.execution.exception.TestFailedException: Error in testcase [//General-SMS bot/Request towel]
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.onDataNotFoundException(TestCaseRunner.java:308)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:352)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Towel | Field : Utternace | TestCase : E chat SMS bot/NewTestCase | Reusabe : General-SMS bot/Request towel ]
+	at com.cognizant.cognizantits.engine.execution.data.DataAccessInternal.throwErrorWithCause(DataAccessInternal.java:287)
+	at com.cognizant.cognizantits.engine.execution.data.DataAccess.getData(DataAccess.java:71)
+	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:64)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:181)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
+	... 11 more
+
+[DEBUG]   | Error in testcase [//General-SMS bot/Request towel]
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:NewTestCase
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:01:03
+-----------------------------------------------------
+
+Run Finished on Mon Jan 06 16:57:45 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 06-Jan-2025 16-56-41
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:01:03
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 16-56-41\summary.html
+-----------------------------------------------------
+[Thread-53] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 16-56-41\summary.html
+[Thread-53] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\NewTestCase\06-Jan-2025 16-56-41\summary.html]

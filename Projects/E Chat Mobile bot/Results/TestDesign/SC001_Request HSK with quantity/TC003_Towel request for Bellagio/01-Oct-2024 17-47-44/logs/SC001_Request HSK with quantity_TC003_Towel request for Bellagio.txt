@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Oct 01 17:47:44 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC003_Towel request for Bellagio]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:HTML URL:URL_Bellagio  |  Condition:  | @01-Oct-2024 17:47:46.046
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : HTML URL | Field : URL_Bellagio | TestCase : SC001_Request HSK with quantity/TC003_Towel request for Bellagio | Reusabe : General/Launch Web Chat_Bellagio ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:HTML URL:URL_Bellagio  |  Condition:  | @01-Oct-2024 17:47:46.046
+[DEBUG]   | Error in testcase [//General/Launch Web Chat_Bellagio]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC003_Towel request for Bellagio
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+---------------------------------------------------
+

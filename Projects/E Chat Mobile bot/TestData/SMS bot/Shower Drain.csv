@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Shower drain,1,1,I’m having trouble with the shower drain; it’s not draining properly. Can you help?
+General-SMS bot,Request Shower drain,2,1,Shower drain clogged

@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Pillows,1,1,Can i get some extra pillows?
+General-SMS bot,Request Pillows,2,1,"I’d like to request additional pillows, please"
+General-SMS bot,Request Pillows,3,1,Pillows

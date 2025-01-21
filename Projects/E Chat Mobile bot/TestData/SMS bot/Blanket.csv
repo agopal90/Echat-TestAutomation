@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Utterance
+General-SMS bot,Request Blanket,1,1,I will need some extra duvets in my room. Can you please send them over?
+General-SMS bot,Request Blanket,2,1,"Hi, Could you please send few blankets to my room. Thanks"
+General-SMS bot,Request Blanket,3,1,Blankets

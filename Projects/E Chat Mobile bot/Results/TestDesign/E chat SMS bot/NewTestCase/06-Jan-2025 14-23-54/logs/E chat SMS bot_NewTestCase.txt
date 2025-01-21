@@ -1,0 +1,83 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 06 14:23:54 IST 2025
+
+Scenario         :  [E chat SMS bot]
+TestCase         :  [NewTestCase]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2  |  Condition:  | @06-Jan-2025 14:23:59.059
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@50000  |  Condition:  | @06-Jan-2025 14:24:49.049
+[DONE]   | Thread sleep for '50000
+
+
+===================================================================================================
+
+Step:3  |  Object:May I know your Ph no message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @06-Jan-2025 14:24:49.049
+[PASS]   | Element [May I know your Ph no message] is Present
+
+
+===================================================================================================
+
+Step:4  |  Object:Text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @06-Jan-2025 14:24:49.049
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (ed4fe7d57e3f19c72824815b5033826f)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:5  |  Object:Text box  |  Action:Set  |  Input:@8149715090  |  Condition:  | @06-Jan-2025 14:24:50.050
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @06-Jan-2025 14:24:55.055
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:7  |  Object:Yes  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @06-Jan-2025 14:25:05.005
+[FAIL]   | Seems Like the Element [] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:8  |  Object:No  |  Action:Click  |  Input:  |  Condition:  | @06-Jan-2025 14:25:10.010
+[DONE]   | Clicking on No
+
+
+===================================================================================================
+
+Step:9  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @06-Jan-2025 14:26:34.034
+[DONE]   | Thread sleep for '5000
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:NewTestCase
+Executed Steps       : 9
+Passed Steps         : 8
+Failed Steps         : 1
+Time Taken           : 00:02:39
+---------------------------------------------------
+

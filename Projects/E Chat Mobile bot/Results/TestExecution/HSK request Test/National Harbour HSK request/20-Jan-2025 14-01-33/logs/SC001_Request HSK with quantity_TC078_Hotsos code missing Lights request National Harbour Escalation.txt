@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 20 14:01:33 IST 2025
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC078_Hotsos code missing Lights request National Harbour Escalation]
+Browser          :  [Chrome]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [1]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:National harbour URL:URL  |  Condition:  | @20-Jan-2025 14:01:39.039
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : National harbour URL | Field : URL | TestCase : SC001_Request HSK with quantity/TC078_Hotsos code missing Lights request National Harbour Escalation | Reusabe : General/Launch Web Chat_NH ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:National harbour URL:URL  |  Condition:  | @20-Jan-2025 14:01:39.039
+[DEBUG]   | Error in testcase [//General/Launch Web Chat_NH]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC078_Hotsos code missing Lights request National Harbour Escalation
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:06
+---------------------------------------------------
+

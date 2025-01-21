@@ -1,4 +1,5 @@
 Scenario,Flow,Iteration,SubIteration,Utterance
-General,Request for a Blanket,1,1,I will need some extra bedcovers. Can you please send them over?
+General,Request for a Blanket,1,1,I will need some extra blankets. Can you please send them over?
 General,Request for a Blanket,2,1,"Hi, Could you please send few blankets to my room. Thanks"
-General,Request for a Blanket,3,1,Linen
+General,Request for a Blanket,3,1,Blankets
+General,Request for a Blanket,4,1,Please send 2 duvets

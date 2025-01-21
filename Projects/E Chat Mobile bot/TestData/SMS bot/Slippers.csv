@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Slippers,1,1," I'd like a a pair of slippers sent to my room, please!"
+General-SMS bot,Request Slippers,1,1,Slippers

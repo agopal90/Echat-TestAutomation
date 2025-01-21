@@ -1,0 +1,159 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 17.0.12
+java.home            : C:\Program Files\Java\jdk-17
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Tue Jan 14 21:51:39 IST 2025
+Loading Browser Profile
+Loading RunManager
+[Scenario:E chat SMS bot] [TestCase: TC012_SMS AC request Aria] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-41] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 131.0.6778.69 (77e2244bbcda3ab9362d5b8aeeb006a86a6d4832-refs/branch-heads/6778@{#2141}) on port 16690
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 16690.
+2025-01-14 21:51:42:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2 | Conditon:  | @14-Jan-2025 21:51:42.042
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @40000 | Conditon:  | @14-Jan-2025 21:51:44.044
+[DONE]   | Thread sleep for '40000
+
+===================================================================================================
+
+Step:3   | Object: May I know your Ph no message | Action: assertElementPresent | Input:  | Conditon:  | @14-Jan-2025 21:52:24.024
+Using @xpath [//div[@aria-label='Chat history, press arrow keys to navigate.']//div[@class='webchat__bubble__content']//*[contains(text(),'May I ask your phone number please')]], Object 'May I know your Ph no message' Found in 8768 ms
+[PASS]   | Element [May I know your Ph no message] is Present
+
+===================================================================================================
+
+Step:4   | Object: Text box | Action: doubleClickElement | Input:  | Conditon:  | @14-Jan-2025 21:52:33.033
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 42 ms
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (08f946f09e41ac6f3feec5d215ec99e9)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+===================================================================================================
+
+Step:5   | Object: Text box | Action: Set | Input: @8149715090 | Conditon:  | @14-Jan-2025 21:52:34.034
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 36 ms
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+===================================================================================================
+
+Step:6   | Object: Send button | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:34.034
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 33 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:7   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @14-Jan-2025 21:52:34.034
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:8   | Object: Yes | Action: waitForElementToBePresent | Input:  | Conditon:  | @14-Jan-2025 21:52:39.039
+Using @xpath [//button[@type='button']//span[contains(text(),'Yes')]], Object 'Yes' Found in 1060 ms
+[PASS]   | 'Yes' Element Present in the stipulated time
+
+===================================================================================================
+
+Step:9   | Object: No | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:41.041
+Using @xpath [//button[@type='button']//span[contains(text(),'No')]], Object 'No' Found in 28 ms
+[DONE]   | Clicking on No
+
+===================================================================================================
+
+Step:10  | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @14-Jan-2025 21:52:41.041
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+Step:1   | Object: Text box | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:46.046
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 37 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:2   | Object: Text box | Action: Set | Input: AC:Utterances | Conditon:  | @14-Jan-2025 21:52:46.046
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 33 ms
+[DONE]   | Entered Text 'I’d appreciate it if you could send someone to check the air conditioning; it’s not cooling adequately' on 'Text box'
+
+===================================================================================================
+
+Step:3   | Object: Send button | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:46.046
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 28 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:4   | Object: Room number message | Action: assertElementPresent | Input:  | Conditon:  | @14-Jan-2025 21:52:47.047
+Using @xpath [//div[@class='webchat__bubble__content']//*[contains(text(),'Please provide your room number without any special characters. (example: 9123)')]], Object 'Room number message' Found in 7737 ms
+[PASS]   | Element [Room number message] is Present
+
+===================================================================================================
+
+Step:5   | Object: Text box | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:55.055
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 48 ms
+[DONE]   | Clicking on Text box
+
+===================================================================================================
+
+Step:6   | Object: Text box | Action: Set | Input: @176 | Conditon:  | @14-Jan-2025 21:52:55.055
+Using @xpath [//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']], Object 'Text box' Found in 25 ms
+[DONE]   | Entered Text '176' on 'Text box'
+
+===================================================================================================
+
+Step:7   | Object: Send button | Action: Click | Input:  | Conditon:  | @14-Jan-2025 21:52:55.055
+Using @xpath [//button[@title='Send']], Object 'Send button' Found in 28 ms
+[DONE]   | Clicking on Send button
+
+===================================================================================================
+
+Step:8   | Object: Confirmation message | Action: assertElementPresent | Input:  | Conditon:  | @14-Jan-2025 21:52:56.056
+Using @xpath [//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! We')]], Object 'Confirmation message' Found in 5185 ms
+[PASS]   | Element [Confirmation message] is Present
+
+===================================================================================================
+
+Step:9   | Object: Browser | Action: pause | Input: @5000 | Conditon:  | @14-Jan-2025 21:53:01.001
+[DONE]   | Thread sleep for '5000
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:TC012_SMS AC request Aria
+Executed Steps       : 19
+Passed Steps         : 19
+Failed Steps         : 0
+Time Taken           : 00:01:27
+-----------------------------------------------------
+
+Run Finished on Tue Jan 14 21:53:06 IST 2025
+-----------------------------------------------------
+ExecutionDate        : 14-Jan-2025 21-51-39
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:01:27
+ReportPath           : file:///C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC012_SMS AC request Aria\14-Jan-2025 21-51-39\summary.html
+-----------------------------------------------------
+[Thread-41] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC012_SMS AC request Aria\14-Jan-2025 21-51-39\summary.html
+[Thread-41] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\AGOPAL\Downloads\cognizant-intelligent-test-scripter-2.0-setup\cognizant-intelligent-test-scripter-2.0\Projects\E Chat Mobile bot\Results\TestDesign\E chat SMS bot\TC012_SMS AC request Aria\14-Jan-2025 21-51-39\summary.html]

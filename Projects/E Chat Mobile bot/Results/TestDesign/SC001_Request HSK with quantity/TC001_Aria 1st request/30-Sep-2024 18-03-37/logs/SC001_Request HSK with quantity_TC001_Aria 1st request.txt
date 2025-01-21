@@ -1,0 +1,125 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Sep 30 18:03:37 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC001_Aria 1st request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html  |  Condition:  | @30-Sep-2024 18:03:43.043
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @30-Sep-2024 18:03:48.048
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @30-Sep-2024 18:03:48.048
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @30-Sep-2024 18:03:58.058
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @30-Sep-2024 18:03:58.058
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@2000  |  Condition:  | @30-Sep-2024 18:04:00.000
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:7  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @30-Sep-2024 18:04:00.000
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:8  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @30-Sep-2024 18:04:01.001
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (a55f441a61810505a420023ffeb48377)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:9  |  Object:Chat text box  |  Action:Set  |  Input:@Please send extra towels  |  Condition:  | @30-Sep-2024 18:04:01.001
+[DONE]   | Entered Text 'Please send extra towels' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:10  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @30-Sep-2024 18:04:01.001
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:11  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @30-Sep-2024 18:04:06.006
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:12  |  Object:Chat text box  |  Action:Click  |  Input:  |  Condition:  | @30-Sep-2024 18:04:06.006
+[DONE]   | Clicking on Chat text box
+
+
+===================================================================================================
+
+Step:13  |  Object:Chat text box  |  Action:Set  |  Input:@2  |  Condition:  | @30-Sep-2024 18:04:07.007
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:14  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @30-Sep-2024 18:04:07.007
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:15  |  Object:Browser  |  Action:pause  |  Input:@6000  |  Condition:  | @30-Sep-2024 18:04:13.013
+[DONE]   | Thread sleep for '6000
+
+
+===================================================================================================
+
+Step:16  |  Object:Confirmation message 1  |  Action:assertElementPresent  |  Input:  |  Condition:  | @30-Sep-2024 18:04:13.013
+[PASS]   | Element [Confirmation message 1] is Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Aria 1st request
+Executed Steps       : 16
+Passed Steps         : 16
+Failed Steps         : 0
+Time Taken           : 00:00:36
+---------------------------------------------------
+

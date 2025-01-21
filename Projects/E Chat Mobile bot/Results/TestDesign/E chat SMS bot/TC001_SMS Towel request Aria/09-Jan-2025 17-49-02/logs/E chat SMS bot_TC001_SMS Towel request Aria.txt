@@ -1,0 +1,167 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Jan 09 17:49:02 IST 2025
+
+Scenario         :  [E chat SMS bot]
+TestCase         :  [TC001_SMS Towel request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2  |  Condition:  | @09-Jan-2025 17:49:06.006
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@40000  |  Condition:  | @09-Jan-2025 17:49:46.046
+[DONE]   | Thread sleep for '40000
+
+
+===================================================================================================
+
+Step:3  |  Object:May I know your Ph no message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @09-Jan-2025 17:49:54.054
+[PASS]   | Element [May I know your Ph no message] is Present
+
+
+===================================================================================================
+
+Step:4  |  Object:Text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @09-Jan-2025 17:49:55.055
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (dee53894349db35b6c96b2359d86b7e9)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:5  |  Object:Text box  |  Action:Set  |  Input:@8149715090  |  Condition:  | @09-Jan-2025 17:49:55.055
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+
+===================================================================================================
+
+Step:6  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:49:56.056
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @09-Jan-2025 17:50:01.001
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:8  |  Object:Yes  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @09-Jan-2025 17:50:01.001
+[PASS]   | 'Yes' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:9  |  Object:No  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:02.002
+[DONE]   | Clicking on No
+
+
+===================================================================================================
+
+Step:10  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @09-Jan-2025 17:50:07.007
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Text box  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:07.007
+[DONE]   | Clicking on Text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Text box  |  Action:Set  |  Input:Towel:Utternace  |  Condition:  | @09-Jan-2025 17:50:08.008
+[DONE]   | Entered Text 'Can you please send some towels to my room?' on 'Text box'
+
+
+===================================================================================================
+
+Step:3  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:08.008
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:4  |  Object:Room number message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @09-Jan-2025 17:50:18.018
+[FAIL]   | Element [Room number message] is not Present
+
+
+===================================================================================================
+
+Step:5  |  Object:Text box  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:19.019
+[DONE]   | Clicking on Text box
+
+
+===================================================================================================
+
+Step:6  |  Object:Text box  |  Action:Set  |  Input:@175  |  Condition:  | @09-Jan-2025 17:50:19.019
+[DONE]   | Entered Text '175' on 'Text box'
+
+
+===================================================================================================
+
+Step:7  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:19.019
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:8  |  Object:How many do you need  |  Action:assertElementPresent  |  Input:  |  Condition:  | @09-Jan-2025 17:50:29.029
+[FAIL]   | Element [How many do you need] is not Present
+
+
+===================================================================================================
+
+Step:9  |  Object:Text box  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:30.030
+[DONE]   | Clicking on Text box
+
+
+===================================================================================================
+
+Step:10  |  Object:Text box  |  Action:Set  |  Input:@4  |  Condition:  | @09-Jan-2025 17:50:30.030
+[DONE]   | Entered Text '4' on 'Text box'
+
+
+===================================================================================================
+
+Step:11  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @09-Jan-2025 17:50:30.030
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:12  |  Object:Confirmation message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @09-Jan-2025 17:50:50.050
+[FAIL]   | Element [Confirmation message] is not Present
+
+
+===================================================================================================
+
+Step:13  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @09-Jan-2025 17:50:56.056
+[DONE]   | Thread sleep for '5000
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:TC001_SMS Towel request Aria
+Executed Steps       : 23
+Passed Steps         : 20
+Failed Steps         : 3
+Time Taken           : 00:01:54
+---------------------------------------------------
+

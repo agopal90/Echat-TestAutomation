@@ -1,0 +1,41 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Dec 02 16:44:23 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC077_Escalation Crave tablet request National Harbour]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @02-Dec-2024 16:44:26.026
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @02-Dec-2024 16:44:31.031
+[DONE]   | Thread sleep for '5000
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC077_Escalation Crave tablet request National Harbour
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:08
+---------------------------------------------------
+

@@ -1,0 +1,90 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Jan 20 14:10:40 IST 2025
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC083_Duplicate Slippers request National harbour]
+Browser          :  [Chrome]
+Browser Version  :  [Default]
+Platform         :  [Any]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [2]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:National harbour URL:URL  |  Condition:  | @20-Jan-2025 14:10:52.052
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20National%20Harbour%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @20-Jan-2025 14:10:57.057
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @20-Jan-2025 14:10:57.057
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @20-Jan-2025 14:11:07.007
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @20-Jan-2025 14:11:07.007
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @20-Jan-2025 14:11:11.011
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @20-Jan-2025 14:11:16.016
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @20-Jan-2025 14:11:22.022
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (0631946a7a414b5e150c401bbe0fc25f)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Slippers:Utterances  |  Condition:  | @20-Jan-2025 14:11:22.022
+[DEBUG]   | Test Data Not Found, Iteration - 2 is missing. 
+[Env : Mobile bot | Sheet : Slippers | Field : Utterances | TestCase : SC001_Request HSK with quantity/TC083_Duplicate Slippers request National harbour | Reusabe : General/Request for Slippers ]
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Slippers:Utterances  |  Condition:  | @20-Jan-2025 14:11:22.022
+[DEBUG]   | Error in testcase [//General/Request for Slippers]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC083_Duplicate Slippers request National harbour
+Executed Steps       : 10
+Passed Steps         : 8
+Failed Steps         : 2
+Time Taken           : 00:00:44
+---------------------------------------------------
+

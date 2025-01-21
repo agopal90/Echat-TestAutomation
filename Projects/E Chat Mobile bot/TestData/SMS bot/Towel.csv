@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Utternace
+General-SMS bot,Request towel,1,1,Can you please send some towels to my room?
+General-SMS bot,Request towel,2,1,All the towels in the room are soiled. Could you please send someone to replace them. Thanks
+General-SMS bot,Request towel,3,1,Towels

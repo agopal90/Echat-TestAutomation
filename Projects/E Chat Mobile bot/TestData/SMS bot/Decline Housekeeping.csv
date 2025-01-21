@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utternaces
+General-SMS bot,Decline Housekeeping,1,1,Decline Housekeeping
+General-SMS bot,Decline Housekeeping,2,1,Do not send housekeeping today

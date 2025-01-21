@@ -1,0 +1,11 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Text box,"Click the [<Object>] ",Click,,,E Chat SMS bot
+2,Text box,Enter the value [<Data>] in the Field [<Object>],Set,Drapes:Utterances,,E Chat SMS bot
+3,Send button,"Click the [<Object>] ",Click,,,E Chat SMS bot
+4,Room number message,Assert if [<Object>] is present,assertElementPresent,,,E Chat SMS bot
+5,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+6,Text box,"Click the [<Object>] ",Click,,,E Chat SMS bot
+7,Text box,Enter the value [<Data>] in the Field [<Object>],Set,@175,,E Chat SMS bot
+8,Send button,"Click the [<Object>] ",Click,,,E Chat SMS bot
+9,Confirmation message,Assert if [<Object>] is present,assertElementPresent,,,E Chat SMS bot
+10,Browser,Wait for [<Data>] milli seconds,pause,@5000,,

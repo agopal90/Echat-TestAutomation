@@ -1,0 +1,90 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Oct 01 15:25:27 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC001_Aria 1st request]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html  |  Condition:  | @01-Oct-2024 15:25:32.032
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @01-Oct-2024 15:25:37.037
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @01-Oct-2024 15:25:37.037
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @01-Oct-2024 15:25:47.047
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @01-Oct-2024 15:25:47.047
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @01-Oct-2024 15:25:51.051
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @01-Oct-2024 15:25:51.051
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @01-Oct-2024 15:25:51.051
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (badb60ed413f2a44126703a36f3c9aea)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Utterances:Utterance for requesting an item  |  Condition:  | @01-Oct-2024 15:25:51.051
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : Default | Sheet : Utterances | Field : Utterance for requesting an item | TestCase : SC001_Request HSK with quantity/TC001_Aria 1st request | Reusabe : General/Request an item_quantity required ]
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Utterances:Utterance for requesting an item  |  Condition:  | @01-Oct-2024 15:25:51.051
+[DEBUG]   | Error in testcase [//General/Request an item_quantity required]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC001_Aria 1st request
+Executed Steps       : 10
+Passed Steps         : 8
+Failed Steps         : 2
+Time Taken           : 00:00:24
+---------------------------------------------------
+

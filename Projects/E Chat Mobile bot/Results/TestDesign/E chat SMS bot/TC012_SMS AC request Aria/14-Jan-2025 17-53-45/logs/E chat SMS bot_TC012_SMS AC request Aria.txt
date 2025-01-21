@@ -1,0 +1,108 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Jan 14 17:53:45 IST 2025
+
+Scenario         :  [E chat SMS bot]
+TestCase         :  [TC012_SMS AC request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2  |  Condition:  | @14-Jan-2025 17:53:49.049
+[DONE]   | Opened Url: https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@40000  |  Condition:  | @14-Jan-2025 17:54:29.029
+[DONE]   | Thread sleep for '40000
+
+
+===================================================================================================
+
+Step:3  |  Object:May I know your Ph no message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @14-Jan-2025 17:54:37.037
+[PASS]   | Element [May I know your Ph no message] is Present
+
+
+===================================================================================================
+
+Step:4  |  Object:Text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @14-Jan-2025 17:54:38.038
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (a1461cbafd5edce74d7c74e02bd54489)] -> xpath: //div[@class='webchat__send-box__main']//input[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:5  |  Object:Text box  |  Action:Set  |  Input:@8149715090  |  Condition:  | @14-Jan-2025 17:54:38.038
+[DONE]   | Entered Text '8149715090' on 'Text box'
+
+
+===================================================================================================
+
+Step:6  |  Object:Send button  |  Action:Click  |  Input:  |  Condition:  | @14-Jan-2025 17:54:38.038
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:7  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @14-Jan-2025 17:54:43.043
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:8  |  Object:Yes  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @14-Jan-2025 17:54:43.043
+[PASS]   | 'Yes' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:9  |  Object:No  |  Action:Click  |  Input:  |  Condition:  | @14-Jan-2025 17:54:44.044
+[DONE]   | Clicking on No
+
+
+===================================================================================================
+
+Step:10  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @14-Jan-2025 17:54:49.049
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Text box  |  Action:Click  |  Input:  |  Condition:  | @14-Jan-2025 17:54:49.049
+[DONE]   | Clicking on Text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Text box  |  Action:Set  |  Input:AC:Utterances  |  Condition:  | @14-Jan-2025 17:54:49.049
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : SMS bot | Sheet : AC | Field : Utterances | TestCase : E chat SMS bot/TC012_SMS AC request Aria | Reusabe : General-SMS bot/Request AC ]
+
+
+===================================================================================================
+
+Step:2  |  Object:Text box  |  Action:Set  |  Input:AC:Utterances  |  Condition:  | @14-Jan-2025 17:54:49.049
+[DEBUG]   | Error in testcase [//General-SMS bot/Request AC]
+
+---------------------------------------------------
+Testcase Name        : E chat SMS bot:TC012_SMS AC request Aria
+Executed Steps       : 13
+Passed Steps         : 11
+Failed Steps         : 2
+Time Taken           : 00:01:04
+---------------------------------------------------
+

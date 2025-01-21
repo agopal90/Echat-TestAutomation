@@ -813,5 +813,341 @@
       "name" : "scenario",
       "value" : "SC001_Request HSK with quantity"
     } ]
+  }, {
+    "id" : "TC090_Towel request Springfield",
+    "name" : "TC090_Towel request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC091_Blanket request Springfield",
+    "name" : "TC091_Blanket request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC092_Pillow request Springfield",
+    "name" : "TC092_Pillow request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC093_Dental kit request Springfield",
+    "name" : "TC093_Dental kit request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC094_Shower drain request Springfield",
+    "name" : "TC094_Shower drain request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC095_Shaving kit request Springfield",
+    "name" : "TC095_Shaving kit request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC096_Drapes request Springfield",
+    "name" : "TC096_Drapes request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC097_Kleenex request Springfield",
+    "name" : "TC097_Kleenex request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC098_Hair dryer request Springfield",
+    "name" : "TC098_Hair dryer request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "SC001_Request HSK with quantity"
+    } ]
+  }, {
+    "id" : "TC001_SMS Towel request Aria",
+    "name" : "TC001_SMS Towel request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC002_SMS blanket request Aria",
+    "name" : "TC002_SMS blanket request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC003_SMS Dental kit request Aria",
+    "name" : "TC003_SMS Dental kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC004_SMS Shaving kit request Aria",
+    "name" : "TC004_SMS Shaving kit request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC005_SMS Drapes request Aria",
+    "name" : "TC005_SMS Drapes request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC006_SMS Hair dryer request Aria",
+    "name" : "TC006_SMS Hair dryer request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC007_SMS Lights request Aria",
+    "name" : "TC007_SMS Lights request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC008_SMS Kleenex request Aria",
+    "name" : "TC008_SMS Kleenex request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC009_SMS Pillows request Aria",
+    "name" : "TC009_SMS Pillows request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC010_SMS Safe request Aria",
+    "name" : "TC010_SMS Safe request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC011_SMS Shower drain request Aria",
+    "name" : "TC011_SMS Shower drain request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC012_SMS AC request Aria",
+    "name" : "TC012_SMS AC request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC013_SMS Slippers request Aria",
+    "name" : "TC013_SMS Slippers request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC014_SMS TV remote request Aria",
+    "name" : "TC014_SMS TV remote request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC015_SMS Toiletries request Aria",
+    "name" : "TC015_SMS Toiletries request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC016_SMS Toilet clogged  request Aria",
+    "name" : "TC016_SMS Toilet clogged  request Aria",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC017_SMS Towel request Springfield",
+    "name" : "TC017_SMS Towel request Springfield",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC001_SMS Towel request Beau Rivage",
+    "name" : "TC001_SMS Towel request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC002_SMS blanket request Beau Rivage",
+    "name" : "TC002_SMS blanket request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC003_SMS Dental kit request Beau Rivage",
+    "name" : "TC003_SMS Dental kit request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC004_SMS Shaving kit request Beau Rivage",
+    "name" : "TC004_SMS Shaving kit request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC005_SMS Drapes request Beau Rivage",
+    "name" : "TC005_SMS Drapes request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC007_SMS Lights request Beau Rivage",
+    "name" : "TC007_SMS Lights request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC006_SMS Hair dryer request Beau Rivage",
+    "name" : "TC006_SMS Hair dryer request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC008_SMS Kleenex request Beau Rivage",
+    "name" : "TC008_SMS Kleenex request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC009_SMS Pillows request Beau Rivage",
+    "name" : "TC009_SMS Pillows request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC010_SMS Safe request Beau Rivage",
+    "name" : "TC010_SMS Safe request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC011_SMS Shower drain request Beau Rivage",
+    "name" : "TC011_SMS Shower drain request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC012_SMS AC request Beau Rivage",
+    "name" : "TC012_SMS AC request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC013_SMS Slippers request Beau Rivage",
+    "name" : "TC013_SMS Slippers request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC014_SMS TV remote request Beau Rivage",
+    "name" : "TC014_SMS TV remote request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC015_SMS Toiletries request Beau Rivage",
+    "name" : "TC015_SMS Toiletries request Beau Rivage",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
+  }, {
+    "id" : "TC016_SMS Toilet clogged  request Beau Rivage)",
+    "name" : "TC016_SMS Toilet clogged  request Beau Rivage)",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "E chat SMS bot"
+    } ]
   } ]
 }

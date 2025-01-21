@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterance
+General-SMS bot,Request Lights,1,1,I’m having trouble with the lights in my room. Can you arrange for maintenance to take a look?
+General-SMS bot,Request Lights,2,1,Fix lights

@@ -1,0 +1,42 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Thu Nov 21 13:31:56 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC053_Duplicate Toilet clogged  request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL_Duplicate test:Data1  |  Condition:  | @21-Nov-2024 13:31:58.058
+[DEBUG]   | Test Data Not Found, Iteration - 1 is missing. 
+[Env : QA | Sheet : Aria URL_Duplicate test | Field : Data1 | TestCase : SC001_Request HSK with quantity/TC053_Duplicate Toilet clogged  request Aria | Reusabe : General/Launch Web Chat Duplicate_Aria ]
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL_Duplicate test:Data1  |  Condition:  | @21-Nov-2024 13:31:58.058
+[DEBUG]   | Error in testcase [//General/Launch Web Chat Duplicate_Aria]
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC053_Duplicate Toilet clogged  request Aria
+Executed Steps       : 2
+Passed Steps         : 0
+Failed Steps         : 2
+Time Taken           : 00:00:01
+---------------------------------------------------
+

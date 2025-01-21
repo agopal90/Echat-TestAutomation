@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Housekeeping,1,1,Can you send someone to clean my room today
+General-SMS bot,Request Housekeeping,2,1,Send housekeeping today
+General-SMS bot,Request Housekeeping,3,1,When I checked in the floor had hair all over. This is dissapointing

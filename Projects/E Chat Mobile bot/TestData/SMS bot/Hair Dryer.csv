@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Utterances
+General-SMS bot,Request Hair dryer,1,1,Is it possible for you to send a Hair dryer to my room. Thanks
+General-SMS bot,Request Hair dryer,2,1,Hair dryer

@@ -1,0 +1,131 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  17.0.12
+java.home                                  :  C:\Program Files\Java\jdk-17
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Nov 18 17:03:12 IST 2024
+
+Scenario         :  [SC001_Request HSK with quantity]
+TestCase         :  [TC054_Duplicate Shaving kit  request Aria]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Aria URL:URL  |  Condition:  | @18-Nov-2024 17:03:16.016
+[DONE]   | Opened Url: file:///C:/Users/AGOPAL/OneDrive%20-%20MGM%20Resorts%20International/E-chat/Mobile%20app%20data/Bot%20-%20QA%20Aria%20LCO.html
+
+
+===================================================================================================
+
+Step:2  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @18-Nov-2024 17:03:21.021
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:3  |  Object:Let's Chat button  |  Action:Click  |  Input:  |  Condition:  | @18-Nov-2024 17:03:22.022
+[DONE]   | Clicking on Let's Chat button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@10000  |  Condition:  | @18-Nov-2024 17:03:32.032
+[DONE]   | Thread sleep for '10000
+
+
+===================================================================================================
+
+Step:5  |  Object:Start conversation text  |  Action:assertElementPresent  |  Input:  |  Condition:  | @18-Nov-2024 17:03:32.032
+[PASS]   | Element [Start conversation text] is Present
+
+
+===================================================================================================
+
+Step:6  |  Object:Browser  |  Action:pause  |  Input:@3000  |  Condition:  | @18-Nov-2024 17:03:35.035
+[DONE]   | Thread sleep for '3000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:assertElementPresent  |  Input:  |  Condition:  | @18-Nov-2024 17:03:35.035
+[PASS]   | Element [Chat text box] is Present
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:doubleClickElement  |  Input:  |  Condition:  | @18-Nov-2024 17:03:36.036
+[DONE]   | '[[ChromeDriver: chrome on WINDOWS (f3d48ee81297574b4a2cdff5b0156678)] -> xpath: //div[@class='webchat__send-box__main']//form[1]//textarea[@aria-label='Message input box']]' is doubleClicked
+
+
+===================================================================================================
+
+Step:3  |  Object:Chat text box  |  Action:Set  |  Input:Shaving kit:Utterances  |  Condition:  | @18-Nov-2024 17:03:36.036
+[DONE]   | Entered Text 'I did not carry my shaving kit along. Could you please send over to my room?' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:4  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @18-Nov-2024 17:03:36.036
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:5  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @18-Nov-2024 17:03:41.041
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:1  |  Object:Chat text box  |  Action:Click  |  Input:  |  Condition:  | @18-Nov-2024 17:03:41.041
+[DONE]   | Clicking on Chat text box
+
+
+===================================================================================================
+
+Step:2  |  Object:Chat text box  |  Action:Set  |  Input:Quantity:Q  |  Condition:  | @18-Nov-2024 17:03:42.042
+[DONE]   | Entered Text '2' on 'Chat text box'
+
+
+===================================================================================================
+
+Step:3  |  Object:Send button  |  Action:ClickIfExists  |  Input:  |  Condition:  | @18-Nov-2024 17:03:42.042
+[DONE]   | Clicking on Send button
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@6000  |  Condition:  | @18-Nov-2024 17:03:48.048
+[DONE]   | Thread sleep for '6000
+
+
+===================================================================================================
+
+Step:4  |  Object:Browser  |  Action:pause  |  Input:@5000  |  Condition:  | @18-Nov-2024 17:03:53.053
+[DONE]   | Thread sleep for '5000
+
+
+===================================================================================================
+
+Step:5  |  Object:Duplicate request message  |  Action:assertElementPresent  |  Input:  |  Condition:  | @18-Nov-2024 17:03:53.053
+[PASS]   | Element [Duplicate request message] is Present
+
+---------------------------------------------------
+Testcase Name        : SC001_Request HSK with quantity:TC054_Duplicate Shaving kit  request Aria
+Executed Steps       : 17
+Passed Steps         : 17
+Failed Steps         : 0
+Time Taken           : 00:00:41
+---------------------------------------------------
+

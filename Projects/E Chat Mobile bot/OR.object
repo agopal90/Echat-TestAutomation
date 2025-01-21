@@ -11,7 +11,7 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="&lt;label dir=&quot;ltr&quot; class=&quot;ms-Label root-114&quot; id=&quot;oc-lcw-chat-button-subtitle&quot;>We're Online&lt;/label>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;label dir=&quot;ltr&quot; class=&quot;ms-Label root-102&quot; id=&quot;oc-lcw-chat-button-subtitle&quot;>We're Online&lt;/label>" ref="outerHTML" pref="10"/>
         <Property value="label" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
@@ -86,7 +86,7 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="&lt;button class=&quot;webchat--css-epdpr-5mw3sr webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch&quot; title=&quot;Send&quot; type=&quot;button&quot;>&lt;div class=&quot;webchat__icon-button__shade&quot;>&lt;/div>&lt;svg class=&quot;webchat__send-icon webchat--css-epdpr-varv44&quot; height=&quot;28&quot; viewBox=&quot;0 0 45.7 33.8&quot; width=&quot;28&quot;>&lt;path clip-rule=&quot;evenodd&quot; d=&quot;M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z&quot;>&lt;/path>&lt;/svg>&lt;div class=&quot;webchat__icon-button__keyboard-focus-indicator&quot;>&lt;/div>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;button class=&quot;webchat--css-xwryg-5mw3sr webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch&quot; title=&quot;Send&quot; type=&quot;button&quot;>&lt;div class=&quot;webchat__icon-button__shade&quot;>&lt;/div>&lt;svg class=&quot;webchat__send-icon webchat--css-xwryg-varv44&quot; height=&quot;28&quot; viewBox=&quot;0 0 45.7 33.8&quot; width=&quot;28&quot;>&lt;path clip-rule=&quot;evenodd&quot; d=&quot;M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z&quot;>&lt;/path>&lt;/svg>&lt;div class=&quot;webchat__icon-button__keyboard-focus-indicator&quot;>&lt;/div>&lt;/button>" ref="outerHTML" pref="10"/>
         <Property value="button" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
@@ -101,7 +101,7 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="&lt;p>You’re all set! We've sent your request to housekeeping for room 186.&lt;br>&#xa;What else can I help you with?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;p>You’re all set! We've sent your request for 2 slipper(s) to housekeeping for room 182 .&lt;br>&#xa;What else can I help you with?.&lt;/p>" ref="outerHTML" pref="10"/>
         <Property value="p" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
@@ -133,6 +133,248 @@
         <Property value="" ref="type" pref="9"/>
         <Property value="&lt;p>I'll connect you with a live agent and they will be with you shortly.&lt;/p>" ref="outerHTML" pref="10"/>
         <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="E Chat SMS bot">
+    <ObjectGroup ref="May I know your Ph no">
+      <Object frame="" ref="May I know your Ph no">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="//div[@aria-label='Chat history, press arrow keys to navigate.']//div[@class='webchat__bubble__content']//*[contains(text(),'May I ask your phone number please')]" ref="xpath" pref="6"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>May I ask your phone number please?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Text box">
+      <Object frame="" ref="Text box">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='webchat__send-box__main']//input[@aria-label='Message input box']" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input class=&quot;webchat__send-box-text-box__input&quot; data-id=&quot;webchat-sendbox-input&quot; data-testid=&quot;send box text area&quot; placeholder=&quot;Type your message&quot; aria-label=&quot;Message input box&quot; inputmode=&quot;text&quot; type=&quot;text&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Chat window title">
+      <Object frame="" ref="Chat window title">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='chatArea-121']//div[contains(text(),'PVA2.0_V1')]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Yes">
+      <Object frame="" ref="Yes">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//button[@type='button']//span[contains(text(),'Yes')]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;webchat__suggested-action__text webchat__suggested-actions__button-text&quot;>Yes&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="No">
+      <Object frame="" ref="No">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//button[@type='button']//span[contains(text(),'No')]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;webchat__suggested-action__text webchat__suggested-actions__button-text&quot;>No&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Send button">
+      <Object frame="" ref="Send button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//button[@title='Send']" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;webchat--css-fcllc-1r0ige7 webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch&quot; title=&quot;Send&quot; type=&quot;button&quot;>&lt;div class=&quot;webchat__icon-button__shade&quot;>&lt;/div>&lt;svg class=&quot;webchat__send-icon webchat--css-fcllc-varv44&quot; height=&quot;28&quot; viewBox=&quot;0 0 45.7 33.8&quot; width=&quot;28&quot;>&lt;path clip-rule=&quot;evenodd&quot; d=&quot;M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z&quot;>&lt;/path>&lt;/svg>&lt;div class=&quot;webchat__icon-button__keyboard-focus-indicator&quot;>&lt;/div>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Room number message">
+      <Object frame="" ref="Room number message">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='webchat__bubble__content']//*[contains(text(),'Please provide your room number without any special characters. (example: 9123)')]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>Please provide your room number without any special characters. (example: 9123)&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="How many do you need">
+      <Object frame="" ref="How many do you need">
+        <Property value="//div[@class='webchat__bubble__content']//*[contains(text(),'How many do you need? (please type 1, 2, 3, or 4)')]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>How many do you need? (please type 1, 2, 3, or 4)&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Confirmation message">
+      <Object frame="" ref="Confirmation message">
+        <Property value="//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! We')]" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>You’re all set! We've sent your request for 4 towel(s) to housekeeping for room 151 .&#xa;  &#xa;What else can I help you with?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+      <Object frame="" ref="WObject2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="KT demo">
+    <ObjectGroup ref="Text box">
+      <Object frame="" ref="Text box">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//textarea[@aria-label='Message input box']" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;textarea class=&quot;webchat__auto-resize-textarea__textarea webchat__send-box-text-box__html-text-area&quot; inputmode=&quot;text&quot; placeholder=&quot;Type your message&quot; rows=&quot;1&quot; aria-label=&quot;Message input box&quot; data-id=&quot;webchat-sendbox-input&quot;>&lt;/textarea>" ref="outerHTML" pref="10"/>
+        <Property value="textarea" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Send button">
+      <Object frame="" ref="Send button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//button[@title='Send']" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;webchat--css-tztgm-5mw3sr webchat__icon-button webchat__icon-button--stretch webchat__send-button webchat__send-box__button webchat__send-box__button--align-stretch&quot; title=&quot;Send&quot; type=&quot;button&quot;>&lt;div class=&quot;webchat__icon-button__shade&quot;>&lt;/div>&lt;svg class=&quot;webchat__send-icon webchat--css-tztgm-varv44&quot; height=&quot;28&quot; viewBox=&quot;0 0 45.7 33.8&quot; width=&quot;28&quot;>&lt;path clip-rule=&quot;evenodd&quot; d=&quot;M8.55 25.25l21.67-7.25H11zm2.41-9.47h19.26l-21.67-7.23zm-6 13l4-11.9L5 5l35.7 11.9z&quot;>&lt;/path>&lt;/svg>&lt;div class=&quot;webchat__icon-button__keyboard-focus-indicator&quot;>&lt;/div>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Conf message">
+      <Object frame="" ref="Conf message">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='webchat__stacked-layout__main']//div[@class='webchat__stacked-layout__content']//div[@class='webchat__bubble__content']//*[contains(text(),'You’re all set! ')]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Welcome message">
+      <Object frame="" ref="Welcome message Copy(1)">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='webchat__bubble__content']//*[contains(text(), &quot;Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.&quot;)]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;p>Welcome to our Digital Concierge. Easy access to hotel services and reservation assistance.&lt;br>&#xa;How may I assist you?&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Lets Chat button">
+      <Object frame="Microsoft_Omnichannel_LCWidget_Chat_Iframe_Window" ref="Lets Chat button">
+        <Property value="//label[@class='ms-Label root-102']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;label dir=&quot;ltr&quot; class=&quot;ms-Label root-102&quot; id=&quot;oc-lcw-chat-button-subtitle&quot;>We're Online&lt;/label>" ref="outerHTML" pref="10"/>
+        <Property value="label" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Quanity">
+      <Object frame="" ref="Quanity">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//div[@class='webchat__bubble__content']//*[contains(text(), &quot;How many do you need? (please type 1, 2, 3, or 4)&quot;)]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>
   </Page>

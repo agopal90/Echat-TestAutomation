@@ -1,0 +1,10 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,SC001_Request HSK with quantity,TC090_Towel request Springfield,Single,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC091_Blanket request Springfield,Single,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC092_Pillow request Springfield,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC093_Dental kit request Springfield,Single,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC094_Shower drain request Springfield,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC095_Shaving kit request Springfield,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC096_Drapes request Springfield,Single,Passed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC097_Kleenex request Springfield,Single,Failed,Chrome,Default,Any
+true,SC001_Request HSK with quantity,TC098_Hair dryer request Springfield,Single,Passed,Chrome,Default,Any

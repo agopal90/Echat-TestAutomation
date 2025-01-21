@@ -1,0 +1,14 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Start a specified browser,Open,@https://web.powerva.microsoft.com/environments/3821c0c5-7def-e316-891e-74bb44c49e02/bots/cr425_PVA2.0_V1/canvas?__version__=2,,
+2,Browser,changing wait time by [<Data>] seconds,pause,@40000,,
+3,May I know your Ph no,Assert if [<Object>] is present,assertElementPresent,,,E Chat SMS bot
+4,Text box,Double click [<Object>] element,doubleClickElement,,,E Chat SMS bot
+5,Text box,Enter the value [<Data>] in the Field [<Object>],Set,@8149715090,,E Chat SMS bot
+6,Send button,"Click the [<Object>] ",Click,,,E Chat SMS bot
+7,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+8,Yes,Wait  for the element [<Object>] to be present,waitForElementToBePresent,,,E Chat SMS bot
+9,Yes,"Click the [<Object>] ",Click,,,E Chat SMS bot
+10,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+11,Text box,"Click the [<Object>] ",Click,,,E Chat SMS bot
+12,Text box,Enter the value [<Data>] in the Field [<Object>],Set,@+18552367329,,E Chat SMS bot
+13,Send button,"Click the [<Object>] ",Click,,,E Chat SMS bot
